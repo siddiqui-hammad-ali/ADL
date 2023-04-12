@@ -1,35 +1,35 @@
 import React, { useState } from "react";
 import Navbar from "../../../components/navbar/navbar";
 import "./ServicesInside.scss";
-import ba3 from "../../../images/ba3.jpg";
+import ba3 from "../../../images/ba3.webp";
 import Carousel from "react-bootstrap/Carousel";
 import Icon1 from "../../../servicesICON/ICONS-01";
 import { useLocation } from "react-router-dom";
 import { moreservices } from "../../../components/pagination/moreservices";
 
 // const slider = [
-//   { img1: "ServicePICTURES/B-EXODE/EXODE FINAL/EXODE-1.jpg" },
-//   { img1: "ServicePICTURES/B-EXODE/EXODE FINAL/EXODE-2.jpg" },
-//   { img1: "ServicePICTURES/B-EXODE/EXODE FINAL/EXODE-3.jpg" },
-//   { img1: "ServicePICTURES/B-EXODE/EXODE FINAL/EXODE-4.jpg" },
-//   { img1: "ServicePICTURES/B-EXODE/EXODE FINAL/EXODE-5.jpg" },
-//   { img1: "ServicePICTURES/B-EXODE/EXODE FINAL/EXODE-6.jpg" },
-//   { img1: "ServicePICTURES/B-EXODE/EXODE FINAL/EXODE-7.jpg" },
-//   { img1: "ServicePICTURES/B-EXODE/EXODE FINAL/EXODE-8.jpg" },
-//   { img1: "ServicePICTURES/B-EXODE/EXODE FINAL/EXODE-9.jpg" },
-//   { img1: "ServicePICTURES/B-EXODE/EXODE FINAL/EXODE-10.jpg" },
-//   { img1: "ServicePICTURES/B-EXODE/EXODE FINAL/EXODE-11.jpg" },
-//   { img1: "ServicePICTURES/B-EXODE/EXODE FINAL/EXODE-12.jpg" },
-//   { img1: "ServicePICTURES/B-EXODE/EXODE FINAL/EXODE-13.jpg" },
-//   { img1: "ServicePICTURES/B-EXODE/EXODE FINAL/EXODE-14.jpg" },
-//   { img1: "ServicePICTURES/B-EXODE/EXODE FINAL/EXODE-15.jpg" },
-//   { img1: "ServicePICTURES/B-EXODE/EXODE FINAL/EXODE-16.jpg" },
-//   { img1: "ServicePICTURES/B-EXODE/EXODE FINAL/EXODE-17.jpg" },
-//   { img1: "ServicePICTURES/B-EXODE/EXODE FINAL/EXODE-18.jpg" },
-//   { img1: "ServicePICTURES/B-EXODE/EXODE FINAL/EXODE-19.jpg" },
-//   { img1: "ServicePICTURES/B-EXODE/EXODE FINAL/EXODE-20.jpg" },
-//   { img1: "ServicePICTURES/B-EXODE/EXODE FINAL/EXODE-21.jpg" },
-//   { img1: "ServicePICTURES/B-EXODE/EXODE FINAL/EXODE-22.jpg" },
+//   { img1: "ServicePICTURES/B-EXODE/EXODE FINAL/EXODE-1.webp" },
+//   { img1: "ServicePICTURES/B-EXODE/EXODE FINAL/EXODE-2.webp" },
+//   { img1: "ServicePICTURES/B-EXODE/EXODE FINAL/EXODE-3.webp" },
+//   { img1: "ServicePICTURES/B-EXODE/EXODE FINAL/EXODE-4.webp" },
+//   { img1: "ServicePICTURES/B-EXODE/EXODE FINAL/EXODE-5.webp" },
+//   { img1: "ServicePICTURES/B-EXODE/EXODE FINAL/EXODE-6.webp" },
+//   { img1: "ServicePICTURES/B-EXODE/EXODE FINAL/EXODE-7.webp" },
+//   { img1: "ServicePICTURES/B-EXODE/EXODE FINAL/EXODE-8.webp" },
+//   { img1: "ServicePICTURES/B-EXODE/EXODE FINAL/EXODE-9.webp" },
+//   { img1: "ServicePICTURES/B-EXODE/EXODE FINAL/EXODE-10.webp" },
+//   { img1: "ServicePICTURES/B-EXODE/EXODE FINAL/EXODE-11.webp" },
+//   { img1: "ServicePICTURES/B-EXODE/EXODE FINAL/EXODE-12.webp" },
+//   { img1: "ServicePICTURES/B-EXODE/EXODE FINAL/EXODE-13.webp" },
+//   { img1: "ServicePICTURES/B-EXODE/EXODE FINAL/EXODE-14.webp" },
+//   { img1: "ServicePICTURES/B-EXODE/EXODE FINAL/EXODE-15.webp" },
+//   { img1: "ServicePICTURES/B-EXODE/EXODE FINAL/EXODE-16.webp" },
+//   { img1: "ServicePICTURES/B-EXODE/EXODE FINAL/EXODE-17.webp" },
+//   { img1: "ServicePICTURES/B-EXODE/EXODE FINAL/EXODE-18.webp" },
+//   { img1: "ServicePICTURES/B-EXODE/EXODE FINAL/EXODE-19.webp" },
+//   { img1: "ServicePICTURES/B-EXODE/EXODE FINAL/EXODE-20.webp" },
+//   { img1: "ServicePICTURES/B-EXODE/EXODE FINAL/EXODE-21.webp" },
+//   { img1: "ServicePICTURES/B-EXODE/EXODE FINAL/EXODE-22.webp" },
 // ];
 const ServicesInside = () => {
   const { state } = useLocation();

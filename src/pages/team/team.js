@@ -7,27 +7,27 @@ const notch = [
   {
     empName: "TAMER KHALIL",
     department: "CEO",
-    image: "TEAM/01-TAMER.jpg",
+    image: "TEAM/01-TAMER.webp",
   },
   {
     empName: "EL MUHANNAD GAD",
     department: "COO",
-    image: "TEAM/02-MOHANNAD.jpg",
+    image: "TEAM/02-MOHANNAD.webp",
   },
   {
     empName: "ZAIN ANSARI",
     department: "CDO",
-    image: "TEAM/03-ZAIN.jpg",
+    image: "TEAM/03-ZAIN.webp",
   },
   {
     empName: "ABDULLAH ALASHI",
     department: "POJECT MANAGER",
-    image: "TEAM/05-ABDULLAH.jpg",
+    image: "TEAM/05-ABDULLAH.webp",
   },
   {
     empName: "SOPHIA QASSIN",
     department: "SENIOR ARCHITECT",
-    image: "TEAM/04-SOPHIA.jpg",
+    image: "TEAM/04-SOPHIA.webp",
   },
 ];
 function Team() {

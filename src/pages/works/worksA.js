@@ -1,24 +1,24 @@
 import React from "react";
 import Navbar from "../../components/navbar/navbar";
-import TAIFVILLA from "../../adlpicture/07-MAKI.jpg";
-import SOUQ from "../../adlpicture/01-TAIF VILLA.jpg";
-import JCC from "../../adlpicture/02-SOUQ.jpg";
-import NINA from "../../adlpicture/03-JCC.jpg";
-import LION from "../../adlpicture/04-NINA.jpg";
-import BAZAN from "../../adlpicture/05-LION SHARE.jpg";
-import MAKI from "../../adlpicture/06-BAZAN.jpg";
+import TAIFVILLA from "../../adlpicture/07-MAKI.webp";
+import SOUQ from "../../adlpicture/01-TAIF VILLA.webp";
+import JCC from "../../adlpicture/02-SOUQ.webp";
+import NINA from "../../adlpicture/03-JCC.webp";
+import LION from "../../adlpicture/04-NINA.webp";
+import BAZAN from "../../adlpicture/05-LION SHARE.webp";
+import MAKI from "../../adlpicture/06-BAZAN.webp";
 import "./works.scss";
 import { useNavigate } from "react-router-dom";
 import Screen2 from "../../screenpages/screen2/Screen2";
 
 const working = [
   {
-    img: "../../adlpicture/01-TAIF VILLA.jpg",
-    img1: "../../adlpicture/02-SOUQ.jpg",
+    img: "../../adlpicture/01-TAIF VILLA.webp",
+    img1: "../../adlpicture/02-SOUQ.webp",
   },
   {
-    img1: "../../adlpicture/04-NINA.jpg",
-    img: "../../adlpicture/03-JCC.jpg",
+    img1: "../../adlpicture/04-NINA.webp",
+    img: "../../adlpicture/03-JCC.webp",
   },
 ];
 
@@ -43,7 +43,7 @@ function WorksA() {
                   <div
                     className="bg-img"
                     style={{
-                      backgroundImage: `url('../../adlpicture/01-TAIF VILLA.jpg')`,
+                      backgroundImage: `url('../../adlpicture/01-TAIF VILLA.webp')`,
                     }}
                   ></div>
                 </div>
@@ -51,7 +51,7 @@ function WorksA() {
                   <div
                     className="bg-img"
                     style={{
-                      backgroundImage: `url('../../adlpicture/02-SOUQ.jpg')`,
+                      backgroundImage: `url('../../adlpicture/02-SOUQ.webp')`,
                     }}
                   ></div>
                 </div>
@@ -75,7 +75,7 @@ function WorksA() {
                   <div
                     className="bg-img"
                     style={{
-                      backgroundImage: `url('../../adlpicture/03-JCC.jpg')`,
+                      backgroundImage: `url('../../adlpicture/03-JCC.webp')`,
                     }}
                   ></div>
                 </div>
@@ -83,7 +83,7 @@ function WorksA() {
                   <div
                     className="bg-img"
                     style={{
-                      backgroundImage: `url('../../adlpicture/04-NINA.jpg')`,
+                      backgroundImage: `url('../../adlpicture/04-NINA.webp')`,
                     }}
                   ></div>
                 </div>

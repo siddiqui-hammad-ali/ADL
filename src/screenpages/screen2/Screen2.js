@@ -1,24 +1,24 @@
 import React from "react";
 import Navbar from "../../components/navbar/navbar";
-import TAIFVILLA from "../../adlpicture/07-MAKI.jpg";
-import SOUQ from "../../adlpicture/01-TAIF VILLA.jpg";
-import JCC from "../../adlpicture/02-SOUQ.jpg";
-import NINA from "../../adlpicture/03-JCC.jpg";
-import LION from "../../adlpicture/04-NINA.jpg";
-import BAZAN from "../../adlpicture/05-LION SHARE.jpg";
-import MAKI from "../../adlpicture/06-BAZAN.jpg";
+import TAIFVILLA from "../../adlpicture/07-MAKI.webp";
+import SOUQ from "../../adlpicture/01-TAIF VILLA.webp";
+import JCC from "../../adlpicture/02-SOUQ.webp";
+import NINA from "../../adlpicture/03-JCC.webp";
+import LION from "../../adlpicture/04-NINA.webp";
+import BAZAN from "../../adlpicture/05-LION SHARE.webp";
+import MAKI from "../../adlpicture/06-BAZAN.webp";
 import "./screen2.scss";
 import { useNavigate } from "react-router-dom";
 
 const working = [
-  "../../adlpicture/01-TAIF VILLA.jpg",
-  "../../adlpicture/02-SOUQ.jpg",
-  "../../adlpicture/04-NINA.jpg",
-  "../../adlpicture/03-JCC.jpg",
-  "../../adlpicture/05-LION SHARE.jpg",
-  "../../adlpicture/06-BAZAN.jpg",
-  "../../adlpicture/01-TAIF VILLA.jpg",
-  "../../adlpicture/07-MAKI.jpg",
+  "../../adlpicture/01-TAIF VILLA.webp",
+  "../../adlpicture/02-SOUQ.webp",
+  "../../adlpicture/04-NINA.webp",
+  "../../adlpicture/03-JCC.webp",
+  "../../adlpicture/05-LION SHARE.webp",
+  "../../adlpicture/06-BAZAN.webp",
+  "../../adlpicture/01-TAIF VILLA.webp",
+  "../../adlpicture/07-MAKI.webp",
 ];
 
 function Screen2() {

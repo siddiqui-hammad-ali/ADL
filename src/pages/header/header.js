@@ -12,21 +12,21 @@ const handleClickScroll = () => {
   }
 }
 const slider = [
-  { img: 'ADL SLIDE SHOW/1920/ADL MP-2.jpg' },
-  // { img: 'ADL SLIDE SHOW/1920/ADL MP-3.jpg' },
-  { img: 'ADL SLIDE SHOW/1920/ADL MP-5.jpg' },
-  { img: 'ADL SLIDE SHOW/1920/ADL MP-7.jpg' },
-  { img: 'ADL SLIDE SHOW/1920/ADL MP-8.jpg' },
-  { img: 'ADL SLIDE SHOW/1920/ADL MP-9.jpg' },
-  // { img: "ADL SLIDE SHOW/1920/ADL MP-1.jpg" },
-  { img: 'ADL SLIDE SHOW/1920/ADL MP-10.jpg' },
-  { img: 'ADL SLIDE SHOW/1920/ADL MP-11.jpg' },
-  { img: 'ADL SLIDE SHOW/1920/ADL MP-12.jpg' },
-  { img: 'ADL SLIDE SHOW/1920/ADL MP-14.jpg' },
-  { img: 'ADL SLIDE SHOW/1920/ADL MP-22.jpg' },
-  { img: 'ADL SLIDE SHOW/1920/ADL MP-23.jpg' },
-  { img: 'ADL SLIDE SHOW/1920/ADL MP-24.jpg' },
-  { img: 'ADL SLIDE SHOW/1920/ADL MP-32.jpg' },
+  { img: 'ADL SLIDE SHOW/1920/ADL MP-2.webp' },
+  // { img: 'ADL SLIDE SHOW/1920/ADL MP-3.webp' },
+  { img: 'ADL SLIDE SHOW/1920/ADL MP-5.webp' },
+  { img: 'ADL SLIDE SHOW/1920/ADL MP-7.webp' },
+  { img: 'ADL SLIDE SHOW/1920/ADL MP-8.webp' },
+  { img: 'ADL SLIDE SHOW/1920/ADL MP-9.webp' },
+  // { img: "ADL SLIDE SHOW/1920/ADL MP-1.webp" },
+  { img: 'ADL SLIDE SHOW/1920/ADL MP-10.webp' },
+  { img: 'ADL SLIDE SHOW/1920/ADL MP-11.webp' },
+  { img: 'ADL SLIDE SHOW/1920/ADL MP-12.webp' },
+  { img: 'ADL SLIDE SHOW/1920/ADL MP-14.webp' },
+  { img: 'ADL SLIDE SHOW/1920/ADL MP-22.webp' },
+  { img: 'ADL SLIDE SHOW/1920/ADL MP-23.webp' },
+  { img: 'ADL SLIDE SHOW/1920/ADL MP-24.webp' },
+  { img: 'ADL SLIDE SHOW/1920/ADL MP-32.webp' },
 ]
 const Header = () => {
   return (
