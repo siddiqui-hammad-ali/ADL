@@ -1,0 +1,41 @@
+body {
+}
+.leftservice {
+  margin-left: 6.5rem;
+}
+.leftservice1 {
+  margin-right: 10rem;
+}
+.hr {
+  border: 1px solid rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0);
+  display: block;
+}
+.about-heder {
+  margin-top: 1%;
+  background-color: white;
+}
+
+.lineheight {
+  color: #133c5e;
+  line-height: 0.4rem;
+}
+.scrd1 {
+  padding: 15px 47px;
+}
+.practiceText {
+  font-size: 14px;
+}
+
+.svg-icon {
+  svg {
+    width: 20vh;
+    display: inline-block;
+  }
+}
+
+@media (max-width: 1024px) {
+  .left3 {
+    margin-left: 1rem;
+  }
+}

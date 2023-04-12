@@ -1,0 +1,94 @@
+body {
+  .bgcolor {
+    background-color: #133c5e;
+  }
+  .fontarab1 {
+    font-family: "light";
+    font-weight: 600;
+    font-size: 13px;
+    color: #133c5e;
+  }
+  .fontTextmute {
+    font-size: 1.4vh;
+    font-weight: 500;
+    font-family: "light";
+  }
+  .fonts {
+    font-size: 13px;
+    font-weight: 500;
+    font-family: "light";
+    color: #133c5e;
+  }
+  .point {
+    cursor: pointer;
+  }
+  .fontHeadingmute {
+    font-weight: 700;
+    font-size: 1.5vh;
+    font-family: "bold";
+  }
+  .line-design {
+    line-height: 85%;
+  }
+  .lines {
+    line-height: 85%;
+  }
+  .left-inside {
+    margin-left: 2rem;
+  }
+
+  @media (max-width: 325px) {
+    .full-img {
+      position: absolute;
+      top: 0%;
+      // left: 5%;
+      text-align: center;
+    }
+    .img-size {
+      width: 297px;
+      height: auto;
+    }
+    .left-inside {
+      margin-left: 8rem;
+      margin-top: 7rem;
+    }
+    .lines {
+      line-height: 60%;
+    }
+  }
+  @media (max-width: 450px) {
+    .full-img {
+      position: absolute;
+      top: 0%;
+      width: 100%;
+    }
+    .img-size {
+      width: 100%;
+      height: auto;
+    }
+    .left-inside {
+      margin-left: 2rem;
+      margin-top: 7rem;
+    }
+    .lines {
+      line-height: 60%;
+    }
+  }
+  @media (max-width: 768px) {
+    .full-img {
+      position: absolute;
+      top: 0%;
+    }
+    .img-size {
+      // width: 100%;
+      // height: 50%;
+    }
+    .left-inside {
+      margin-left: 2rem;
+      margin-top: 50%;
+    }
+    .lines {
+      // line-height: 95%;
+    }
+  }
+}

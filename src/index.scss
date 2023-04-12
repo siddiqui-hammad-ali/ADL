@@ -1,0 +1,12 @@
+@font-face {
+  font-family: light;
+  src: url(./font/Hero.otf);
+}
+@font-face {
+  font-family: bold;
+  src: url(./font/HeroLight-Bold.otf);
+}
+
+code {
+  font-family: light, bold;
+}

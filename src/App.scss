@@ -1,0 +1,89 @@
+body {
+  background-color: "#f7f7ef";
+  overflow-x: hidden;
+}
+
+// .wrapper {
+//   position: relative;
+//   width: 100%;
+//   height: 100vh;
+//   scroll-behavior: smooth;
+//   overflow: auto;
+//   scroll-snap-type: y mandatory;
+// }
+.sections {
+  width: 100%;
+  height: 100vh;
+  //   overflow: hidden;
+  //   background-size: cover;
+  //   scroll-snap-align: start;
+  //   display: flex;
+  //   justify-content: center;
+  //   align-items: center;
+  //   flex-direction: column;
+}
+.fontText {
+  font-weight: 500;
+  color: #133c5e;
+  font-family: "light";
+  text-align: justify;
+  font-size: 14px;
+}
+.fontTextmobile {
+  font-weight: 500;
+  color: #133c5e;
+  font-family: "light";
+  text-align: justify;
+  font-size: 11px;
+}
+.DesignText {
+  font-weight: 500;
+  color: #133c5e;
+  font-family: "light";
+}
+.fontHeading {
+  font-weight: 700;
+  color: #133c5e;
+  font-size: 3vh; //32px;
+  font-family: "bold";
+}
+.fontHeadingmobile {
+  font-weight: 700;
+  color: #133c5e;
+  font-size: 10px;
+  font-family: "bold";
+}
+.fontarab {
+  font-family: "light";
+  font-weight: 600;
+  font-size: 17px;
+  color: #133c5e;
+}
+.fontNav {
+  font-family: "bold";
+  font-weight: 700;
+  color: #b7b1a1;
+  cursor: pointer;
+}
+
+.scssClass {
+  background-color: rgb(55, 18, 243);
+  text-align: center;
+  padding: 20px 0;
+  h2 {
+    font-family: "bold";
+  }
+}
+
+.bg-img {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 768px) {
+  .container-fluid {
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+  }
+}

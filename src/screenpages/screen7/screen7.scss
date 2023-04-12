@@ -1,0 +1,40 @@
+body {
+  .navbara {
+    position: relative;
+    left: 4.5%;
+    top: 2%;
+  }
+  .map-text {
+    color: #133c5e;
+  }
+  .lineheight {
+    color: #133c5e;
+    line-height: 0.4rem;
+  }
+  .crd {
+    padding: 15px;
+  }
+  .fontTextmobile1 {
+    font-weight: 500;
+    color: #133c5e;
+    font-family: "light";
+    text-align: justify;
+    font-size: 8px;
+  }
+  .hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #133c5e;
+    margin: 1em 0;
+    padding: 0;
+  }
+  @media (max-width: 1024px) {
+    .leftcontact {
+      padding-left: 2.9rem;
+    }
+    .left2 {
+      padding-left: 3.5rem;
+    }
+  }
+}

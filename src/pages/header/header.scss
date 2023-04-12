@@ -1,0 +1,162 @@
+body {
+  background-color: #e6e6e6;
+  height: 100vh;
+  display: grid;
+  width: 100vw;
+  place-items: center;
+  padding: 0;
+}
+.fnt {
+  font-size: 10vw;
+}
+.scssClass {
+  background-color: rgb(55, 18, 243);
+  text-align: center;
+  padding: 20px 0;
+  h2 {
+    color: white;
+    font-family: sans-serif;
+  }
+}
+.brandsName {
+  font-size: 29.2px;
+}
+
+.himageText {
+  position: absolute;
+  bottom: 120px;
+  right: 110px;
+  font-size: 18px;
+  z-index: 2;
+}
+.hlogo {
+  position: absolute;
+  top: 15%;
+  left: 3%;
+  font-size: 18px;
+}
+.companyName {
+  position: absolute;
+  top: 70%;
+  left: 7.5%;
+  font-size: 18px;
+}
+.harchitecture {
+  position: absolute;
+  font-size: 18px;
+  font-family: "light";
+  bottom: 22px;
+  left: 100px;
+  z-index: 2;
+}
+.harchitecture1 {
+  position: absolute;
+  right: 110px;
+  font-size: 18px;
+  font-family: "light";
+  bottom: 27px;
+  z-index: 2;
+}
+.europe {
+  font-size: 24px;
+  font-family: "bold";
+}
+.contact-detail {
+  font-size: 16px;
+  margin-left: 6px;
+}
+.hlogo1 {
+  max-width: 550px;
+  position: absolute;
+  bottom: 100px;
+  left: 100px;
+  z-index: 2;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  z-index: 4 !important;
+}
+
+// Mobile Phone //
+@media (max-height: 740px) and (min-width: 748px) {
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: none !important;
+  }
+}
+@media (max-width: 375px) and (min-width: 320px) {
+  .logo1 {
+    width: 220px;
+    position: absolute;
+    left: -16%;
+    bottom: 266%;
+  }
+  .brandsName {
+    font-size: 10.2pt;
+  }
+  .architecture {
+    position: absolute;
+    left: -15.1%;
+    font-size: 18px;
+    font-family: "light";
+    top: -4%;
+  }
+  .imageText {
+    position: absolute;
+    bottom: 28px;
+    right: 84%;
+  }
+  .europe {
+    font-size: 13px;
+  }
+}
+@media (max-width: 450px) and (min-width: 375px) {
+  .logo1 {
+    width: 170px;
+    position: absolute;
+    left: 19%;
+  }
+  .brandsName {
+    font-size: 10.2pt;
+  }
+  .architecture {
+    position: absolute;
+    left: 28.9%;
+    font-size: 18px;
+    font-family: "light";
+    top: -25%;
+  }
+  .imageText {
+    position: absolute;
+    bottom: 41px;
+    right: 29%;
+  }
+  .europe {
+    font-size: 13px;
+  }
+  //
+  @media (max-width: 768px) and (min-width: 451px) {
+    .logo1 {
+      width: 270px;
+      margin-top: 3rem;
+    }
+    .brandsName {
+      font-size: 13.2pt;
+    }
+  }
+  @media (max-width: 1068px) and (min-width: 769px) {
+    .logo1 {
+      margin-top: 1rem;
+      width: 180px;
+    }
+    .brandsName {
+      font-size: 19.2pt;
+      // margin-top: -rem;
+    }
+    .brands {
+      // font-size: 19.2pt;
+      margin-top: 2rem;
+    }
+  }
+}

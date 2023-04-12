@@ -1,0 +1,62 @@
+body {
+  .email-btn {
+    background-color: #7fdfee;
+    border: none;
+    color: white;
+    padding: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20%;
+    width: 100%;
+  }
+  .email-btn {
+    border-radius: 1.375rem;
+    font-family: "light";
+  }
+  .textForms {
+    display: flex;
+    justify-content: center;
+  }
+  .navbars {
+    position: relative;
+    left: 10%;
+    top: 8%;
+  }
+  .notch {
+    width: 150px;
+    height: 150px;
+    background: #000000;
+    clip-path: polygon(
+      (
+        0 0%,
+        10% 0,
+        100% 0,
+        100% 10%,
+        100% 66%,
+        61% 100%,
+        0% 104%,
+        0% 90%,
+        0% 28%
+      )
+    );
+  }
+  .pic {
+    width: 150px;
+    height: 150px;
+  }
+  .borderfield {
+    border-radius: 1.375rem;
+    font-family: "light";
+  }
+
+  @media (max-width: 1024px) {
+    .leftinquiry {
+      padding-left: 2.9rem;
+    }
+    .left2 {
+      padding-left: 3.5rem;
+    }
+  }
+}
