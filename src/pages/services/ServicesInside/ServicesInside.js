@@ -6,6 +6,7 @@ import Carousel from "react-bootstrap/Carousel";
 import Icon1 from "../../../servicesICON/ICONS-01";
 import { useLocation } from "react-router-dom";
 import { moreservices } from "../../../components/pagination/moreservices";
+import logo from "../../../images/footer.png"
 
 // const slider = [
 //   { img1: "ServicePICTURES/B-EXODE/EXODE FINAL/EXODE-1.webp" },
@@ -61,46 +62,47 @@ const ServicesInside = () => {
                   {/* <Icon1 width={"200px"} /> */}
                   {moreservices[idx].gif}
                 </div>
+                <div className="serviceheadings">
                 <h3>{moreservices[idx].name1}</h3>
+                <h6>{moreservices[idx].name3}</h6>
+                </div>
                 <div
                   className=" aboutText col-lg-11"
                   style={{ marginTop: " 2vh" }}
                 >
-                  <p className="fontText resp-fs">
+                  {/* <p className="fontText resp-fs">
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
                     sed diam nonummy nibh euismod tincidunt ut laoreet dolore
                     magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
                     quis nostrud exerci
-                  </p>
+                  </p> */}
                   <div className="d-flex justify-content-between mt-5">
                     <div onClick={previous}>
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="30"
-                        height="26"
-                        fill="blue"
-                        className="bi bi-chevron-left"
-                        viewBox="0 0 16 16"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"
-                        />
+                      <svg 
+                        xmlns="http://www.w3.org/2000/svg" 
+                        width="100" 
+                        height="70" 
+                        viewBox="0 0 24 24" 
+                        fill="none" 
+                        stroke="rgb(31,59,91)" 
+                        stroke-width="1" 
+                        stroke-linecap="round" 
+                        stroke-linejoin="round">
+                        <path d="M15 18l-6-6 6-6"/>
                       </svg>
                     </div>
                     <div onClick={next}>
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="30"
-                        height="26"
-                        fill="blue"
-                        className="bi bi-chevron-right"
-                        viewBox="0 0 16 16"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
-                        />
+                      <svg 
+                        xmlns="http://www.w3.org/2000/svg" 
+                        width="100" 
+                        height="70" 
+                        viewBox="0 0 24 24" 
+                        fill="none" 
+                        stroke="rgb(31,59,91)" 
+                        stroke-width="1" 
+                        stroke-linecap="round" 
+                        stroke-linejoin="round">
+                        <path d="M9 18l6-6-6-6"/>
                       </svg>
                     </div>
                   </div>
@@ -137,6 +139,16 @@ const ServicesInside = () => {
                       width: "100vw",
                     }}
                   />
+                  <div
+                    style={{
+                      position: "absolute",
+                      top: "20px",
+                      right: "20px",
+                      zIndex: "1",
+                    }}
+                  >
+                    <img src={logo} alt="logo" width="auto" height="60" />
+                  </div>
                 </Carousel.Item>
               ))}
             </Carousel>

@@ -1,4 +1,7 @@
 body {
+  #section1, #root {
+    background-color: #F7F7EF;
+  }
   .hover02 figure img {
     width: 500px;
     height: 300px;
@@ -105,4 +108,15 @@ body {
       height: 240px;
     }
   }
+  .card-image-wrapper {
+    position: relative;
+  }
+  .card-logo {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 50px;
+      height: 50px;
+  }
+  
 }

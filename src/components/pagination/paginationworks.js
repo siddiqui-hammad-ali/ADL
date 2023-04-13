@@ -310,9 +310,9 @@ export const cards = [
     construction: "",
     slider: [
       { img1: "ADL PROJECTS/08-SHANAB/SHANAB-1.webp" },
-      { img1: "ADL PROJECTS/08-SHANAB/SHANAB-2.jpeg" },
-      { img1: "ADL PROJECTS/08-SHANAB/SHANAB-3.jpeg" },
-      { img1: "ADL PROJECTS/08-SHANAB/SHANAB-4.jpeg" },
+      { img1: "ADL PROJECTS/08-SHANAB/SHANAB-2.webp" },
+      { img1: "ADL PROJECTS/08-SHANAB/SHANAB-3.webp" },
+      { img1: "ADL PROJECTS/08-SHANAB/SHANAB-4.webp" },
       { img1: "ADL PROJECTS/08-SHANAB/SHANAB-5.webp" },
       { img1: "ADL PROJECTS/08-SHANAB/SHANAB-6.webp" },
       { img1: "ADL PROJECTS/08-SHANAB/SHANAB-7.webp" },

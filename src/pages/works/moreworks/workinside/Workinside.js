@@ -4,6 +4,7 @@ import Navbar from "../../../../components/navbar/navbar";
 import Carousel from "react-bootstrap/Carousel";
 import "./Workinside.scss";
 import { cards } from "../../../../components/pagination/paginationworks";
+import logo from "../../../../images/footer.png"
 
 const Workinside = () => {
   const { state } = useLocation();
@@ -85,9 +86,8 @@ const Workinside = () => {
                 <Carousel.Item>
                   <img
                     className="d-block "
-                    // src={sliders.slider}
                     src={img1}
-                    alt="First slide"
+                    alt="slide"
                     style={{
                       height: "100vh",
                       marginRight: "-12px",
@@ -95,6 +95,16 @@ const Workinside = () => {
                       width: "100vw",
                     }}
                   />
+                  <div
+                    style={{
+                      position: "absolute",
+                      top: "20px",
+                      right: "20px",
+                      zIndex: "1",
+                    }}
+                  >
+                    <img src={logo} alt="logo" width="auto" height="60" />
+                  </div>
                 </Carousel.Item>
               ))}
             </Carousel>

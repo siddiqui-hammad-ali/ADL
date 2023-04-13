@@ -26,6 +26,7 @@ body {
     font-weight: 700;
     font-size: 1.5vh;
     font-family: "bold";
+    display: grid;
   }
   .line-design {
     line-height: 85%;
@@ -90,5 +91,21 @@ body {
     .lines {
       // line-height: 95%;
     }
+  }
+  .justify-content-center {
+    justify-self: right;
+  }
+  .col-lg-11 {
+    width: 100%;
+    display: grid;
+    justify-content: stretch;
+  }
+  .serviceheadings {
+    padding-left: 13%;
+    padding-bottom: 15%;
+  }
+  .serviceheadings h3 {
+    color: #133c5e;
+    letter-spacing: 5px;
   }
 }

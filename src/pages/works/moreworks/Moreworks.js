@@ -40,7 +40,7 @@ const Moreworks = () => {
                 to={"./Workinside"}
                 state={{ index: idx }}
               >
-                <div className=" d-sm-flex justify-content-sm-start d-lg-flex justify-content-lg-end">
+               <div className=" d-sm-flex justify-content-sm-start d-lg-flex justify-content-lg-end">
                   <img
                     src={card.img}
                     style={{ height: "37vh", width: "60vw" }}

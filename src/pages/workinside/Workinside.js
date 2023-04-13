@@ -11,11 +11,11 @@ const Workinside = () => {
   const [idx, setIdx] = useState(state.index);
   console.log(cards);
   const previous = () => {
-    if (idx == 0) return;
+    if (idx === 0) return;
     setIdx(idx - 1);
   };
   const next = () => {
-    if (idx == cards.length - 1) return;
+    if (idx === cards.length - 1) return;
     setIdx(idx + 1);
   };
   return (
