@@ -1,6 +1,6 @@
 body {
   #section3 {
-    background-color: #F7F7EF;
+    background-color: #f7f7ef;
   }
 }
 .leftservice {
@@ -36,9 +36,35 @@ body {
     display: inline-block;
   }
 }
-
+@media (max-width: 768px) {
+  svg#Layer_1 {
+    width: 12vh;
+  }
+  .text-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    justify-items: stretch;
+    position: initial;
+    flex-direction: row;
+    margin: -13px;
+    padding-right: 20px;
+  }
+  .fontHeading {
+    display: grid;
+    justify-content: end;
+    justify-items: end;
+  }
+  .DesignText {
+    font-weight: bolder;
+    color: rgb(121, 122, 122);
+  }
+}
 @media (max-width: 1024px) {
   .left3 {
     margin-left: 1rem;
   }
+}
+.txtclr {
+  color: #133c5e !important;
 }

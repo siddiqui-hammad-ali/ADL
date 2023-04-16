@@ -1,15 +1,7 @@
 import React from "react";
-import Icon1 from "../../servicesICON/ICONS-01";
-import Icon2 from "../../servicesICON/ICONS-02";
-import Icon3 from "../../servicesICON/ICONS-03";
-import Icon4 from "../../servicesICON/ICONS-04";
-import Icon5 from "../../servicesICON/ICONS-05";
-import Icon6 from "../../servicesICON/ICONS-06";
 import Navbar from "../../components/navbar/navbar";
 import { moreservices } from "../../components/pagination/moreservices";
-
 import "./services.scss";
-import Screen4 from "../../screenpages/screen4/Screen4";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 
@@ -34,11 +26,12 @@ function Services() {
             {moreservices.map((moreservice, idx) => (
               <div className="col-md-2  text-center">
                 <Link
-                  // onClick={() => navigate("./moreservices")}
+                  onClick={() => navigate("./moreservices")}
                   className="svg-icon "
                   to={"./moreservices"}
                   style={{ cursor: "pointer" }}
                   state={{ index: idx }}
+                  replace
                 >
                   {moreservice.gif}
                 </Link>
@@ -91,8 +84,70 @@ function Services() {
           </div>
         </div>
       </div>
-      <div className="d-block d-md-none">
-        <Screen4 />
+      <div className="d-block d-sm-none">
+        <div className="container">
+          <div className="row" style={{ paddingTop: "4vh" }}>
+            <div className="col-10 mt-3">
+              <h6
+                className=""
+                style={{
+                  color: "rgb(19, 60, 94)",
+                  fontSize: "4.62vw",
+                  fontFamily: "bold",
+                  fontWeight: 500,
+                }}
+              >
+                MULTIDISCIPLINARY PRACTICE
+              </h6>
+              <div className="col-11">
+                <p className="fontTextmobile m-0">
+                  Buildings, Spaces, Products or Digital User Experiences, we
+                  design anything and everything! At ADL, our robust team works
+                  with a collaborative spirit to ensure highly efficient
+                  end-to-end delivery of all our projects.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="cotainer">
+          <div className="row justify-content-end"></div>
+          <Navbar active={"services"} />
+          <div className="container-fluid mt-3">
+            {moreservices.map((moreservice, idx) => (
+              <div className="row mb-3">
+                <div className="col-12 d-flex justify-content-end">
+                  <div className="text-container">
+                    <p
+                      className="fontHeading mb-1"
+                      style={{ fontSize: "12px" }}
+                    >
+                      {moreservice.name1}
+                      <br />
+                      <p
+                        className="DesignText mb-0"
+                        style={{ fontSize: "8px", display: "inline-block" }}
+                      >
+                        {moreservice.name3}
+                      </p>
+                    </p>
+
+                    <Link
+                      onClick={() => navigate("./moreservices")}
+                      className="svg-icon ml-2"
+                      to={"./moreservices"}
+                      style={{ cursor: "pointer" }}
+                      state={{ index: idx }}
+                      replace
+                    >
+                      {moreservice.gif}
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
       </div>
     </>
   );

@@ -1,6 +1,7 @@
 body {
-  #Work, #WorkB {
-    background-color: #F7F7EF;
+  #Work,
+  #WorkB {
+    background-color: #f7f7ef;
   }
   .about {
     overflow: hidden;
@@ -59,6 +60,14 @@ body {
   @media (min-width: 1440px) {
     .left2 {
       top: 10%;
+    }
+  }
+  @media (max-width: 767px) {
+    .Works.sections {
+      height: auto;
+    }
+    h1.fontHeading {
+      display: inherit;
     }
   }
 }

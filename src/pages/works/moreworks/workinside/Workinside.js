@@ -12,11 +12,11 @@ const Workinside = () => {
   const [idx, setIdx] = useState(state.index);
   console.log(cards);
   const previous = () => {
-    if (idx == 0) return;
+    if (idx === 0) return;
     setIdx(idx - 1);
   };
   const next = () => {
-    if (idx == cards.length - 1) return;
+    if (idx === cards.length - 1) return;
     setIdx(idx + 1);
   };
   return (
@@ -29,7 +29,7 @@ const Workinside = () => {
               <div className="mt-5">
                 <p className="fontHeading  lines">{cards[idx].name}</p>
                 <p className="fontHeadingmute text-muted line-design">
-                  {cards[idx].design} <br />
+                  {cards[idx].design} <br /><br />
                   <span className="fontTextmute  text-muted lines">
                     {cards[idx].location}{" "}
                   </span>{" "}
@@ -57,7 +57,6 @@ const Workinside = () => {
               </div>
               <div
                 className=" d-flex justify-content-between  fonts nexpre"
-                style={{ marginTop: "54px", marginBottom: "54px" }}
               >
                 <div>
                   <p
@@ -93,6 +92,7 @@ const Workinside = () => {
                       marginRight: "-12px",
                       marginLeft: "auto",
                       width: "100vw",
+                      lazy: "true",
                     }}
                   />
                   <div

@@ -80,16 +80,9 @@ body {
       position: absolute;
       top: 0%;
     }
-    .img-size {
-      // width: 100%;
-      // height: 50%;
-    }
     .left-inside {
       margin-left: 2rem;
       margin-top: 50%;
-    }
-    .lines {
-      // line-height: 95%;
     }
   }
   .justify-content-center {
@@ -108,4 +101,11 @@ body {
     color: #133c5e;
     letter-spacing: 5px;
   }
+  .left-inside {
+    width: 350px;
+  }
+  
+  .col-lg-8 {
+    min-width: 700px;
+  }  
 }

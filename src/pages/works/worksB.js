@@ -1,32 +1,12 @@
 import React from "react";
-import Navbar from "../../components/navbar/navbar";
-import TAIFVILLA from "../../adlpicture/07-MAKI.webp";
-import SOUQ from "../../adlpicture/01-TAIF VILLA.webp";
-import JCC from "../../adlpicture/02-SOUQ.webp";
-import NINA from "../../adlpicture/03-JCC.webp";
-import LION from "../../adlpicture/04-NINA.webp";
-import BAZAN from "../../adlpicture/05-LION SHARE.webp";
-import MAKI from "../../adlpicture/06-BAZAN.webp";
 import "./works.scss";
 import { useNavigate } from "react-router-dom";
-import Screen3 from "../../screenpages/screen3/Screen3";
-
-// const working = [
-//   {
-//     img: '../../adlpicture/05-LION SHARE.webp',
-//     img1: '../../adlpicture/06-BAZAN.webp',
-//   },
-//   {
-//     img1: '../../adlpicture/01-TAIF VILLA.webp',
-//     img: '../../adlpicture/07-MAKI.webp',
-//   },
-// ]
 
 function WorksB() {
   const navigate = useNavigate();
   return (
     <div>
-      <div id="WorkB" className="d-none d-md-block Works sections">
+      <div id="WorkB" className="d-block d-sm-block Works sections">
         <div className="container-fluid pe-0">
           <div
             className="row flex-row-reverse"
@@ -34,7 +14,7 @@ function WorksB() {
           >
             <div className="col-md-8">
               <div className="row">
-                <div className={"col-md-5"}>
+                <div className={"col-md-5 d-none d-sm-block"}>
                   <div
                     className="bg-img"
                     style={{
@@ -42,7 +22,7 @@ function WorksB() {
                     }}
                   ></div>
                 </div>
-                <div className={"col-md-7"}>
+                <div className={"col-md-7 d-none d-sm-block"}>
                   <div
                     className="bg-img"
                     style={{
@@ -55,7 +35,7 @@ function WorksB() {
           </div>
 
           <div className="row">
-            <div className="col-md-4">
+            <div className="col-md-4 d-none d-sm-block">
               <div className="fontText details">
                 Not just Architects! <br />
                 We strive to help our clients achieve the best value for their
@@ -69,7 +49,7 @@ function WorksB() {
             </div>
             <div className="col-md-8">
               <div className="row">
-                <div className={"col-md-7"}>
+                <div className={"col-md-7 d-none d-sm-block"}>
                   <div
                     className="bg-img"
                     style={{
@@ -77,9 +57,9 @@ function WorksB() {
                     }}
                   ></div>
                 </div>
-                <div className={"col-md-5"}>
+                <div className={"col-md-5 d-none d-sm-block"}>
                   <div
-                    className="bg-img"
+                    className="bg-img d-none d-sm-block"
                     style={{
                       backgroundImage: `url('../../adlpicture/07-MAKI.webp')`,
                     }}
@@ -90,7 +70,7 @@ function WorksB() {
             <div className="col-md-4" style={{ cursor: "pointer" }}>
               <h1
                 onClick={() => navigate("./moreworks")}
-                className=" fontHeading  "
+                className="fontHeading morewrk"
                 style={{ marginTop: "-30px" }}
               >
                 MORE WORKS &nbsp;
