@@ -9,7 +9,7 @@ import logo from "../../../images/footer.png";
 const ServicesInside = () => {
   const { state } = useLocation();
   console.log(state);
-  const [idx, setIdx] = useState(state.index);
+  const [idx, setIdx] = useState(state ? state.index : 0);
   console.log(moreservices);
   const previous = () => {
     if (idx === 0) return;

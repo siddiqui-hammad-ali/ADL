@@ -8,7 +8,7 @@ import { cards } from "../../../../components/pagination/paginationworks";
 const Workinside = () => {
   const { state } = useLocation();
   console.log(state);
-  const [idx, setIdx] = useState(state.index);
+  const [idx, setIdx] = useState(state ? state.index : 0);
   console.log(cards);
   const previous = () => {
     if (idx === 0) return;
