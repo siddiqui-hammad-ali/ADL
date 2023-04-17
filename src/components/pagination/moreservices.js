@@ -5,21 +5,7 @@ import Icon3 from "../../servicesICON/ICONS-03";
 import Icon4 from "../../servicesICON/ICONS-04";
 import Icon5 from "../../servicesICON/ICONS-05";
 import Icon6 from "../../servicesICON/ICONS-06";
-// const slider = [
-//   { img: "ADL SLIDE SHOW/1920/ADL MP-2.webp" },
-//   { img: "ADL SLIDE SHOW/1920/ADL MP-5.webp" },
-//   { img: "ADL SLIDE SHOW/1920/ADL MP-7.webp" },
-//   { img: "ADL SLIDE SHOW/1920/ADL MP-8.webp" },
-//   { img: "ADL SLIDE SHOW/1920/ADL MP-9.webp" },
-//   { img: "ADL SLIDE SHOW/1920/ADL MP-10.webp" },
-//   { img: "ADL SLIDE SHOW/1920/ADL MP-11.webp" },
-//   { img: "ADL SLIDE SHOW/1920/ADL MP-12.webp" },
-//   { img: "ADL SLIDE SHOW/1920/ADL MP-14.webp" },
-//   { img: "ADL SLIDE SHOW/1920/ADL MP-22.webp" },
-//   { img: "ADL SLIDE SHOW/1920/ADL MP-23.webp" },
-//   { img: "ADL SLIDE SHOW/1920/ADL MP-24.webp" },
-//   { img: "ADL SLIDE SHOW/1920/ADL MP-32.webp" },
-// ];
+
 export const moreservices = [
   {
     name1: "EXODE",

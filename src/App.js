@@ -4,7 +4,6 @@ import Home from "./home";
 import Moreworks from "./pages/works/moreworks/Moreworks";
 import Workinside from "./pages/works/moreworks/workinside/Workinside";
 import Screen from "./Screen";
-import Screen1 from "./screenpages/screen1/Screen1";
 import ServicesInside from "./pages/services/ServicesInside/ServicesInside";
 
 function App() {

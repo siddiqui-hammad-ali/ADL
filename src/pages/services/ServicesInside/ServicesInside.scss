@@ -26,7 +26,6 @@ body {
     font-weight: 700;
     font-size: 1.5vh;
     font-family: "bold";
-    display: grid;
   }
   .line-design {
     line-height: 85%;
@@ -53,6 +52,9 @@ body {
       margin-left: 8rem;
       margin-top: 7rem;
     }
+    .sliderservice {
+      height: 40vh !important;
+    }
     .lines {
       line-height: 60%;
     }
@@ -71,6 +73,9 @@ body {
       margin-left: 2rem;
       margin-top: 7rem;
     }
+    .sliderservice {
+      height: 40vh !important;
+    }
     .lines {
       line-height: 60%;
     }
@@ -80,32 +85,12 @@ body {
       position: absolute;
       top: 0%;
     }
+    .moreslider {
+      height: 60vh !important;
+    }
     .left-inside {
-      margin-left: 2rem;
-      margin-top: 50%;
+      margin-left: 6px;
+      margin-top: 0%;
     }
   }
-  .justify-content-center {
-    justify-self: right;
-  }
-  .col-lg-11 {
-    width: 100%;
-    display: grid;
-    justify-content: stretch;
-  }
-  .serviceheadings {
-    padding-left: 13%;
-    padding-bottom: 15%;
-  }
-  .serviceheadings h3 {
-    color: #133c5e;
-    letter-spacing: 5px;
-  }
-  .left-inside {
-    width: 350px;
-  }
-  
-  .col-lg-8 {
-    min-width: 700px;
-  }  
 }

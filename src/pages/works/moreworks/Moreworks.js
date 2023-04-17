@@ -10,7 +10,7 @@ import { cards } from "../../../components/pagination/paginationworks";
 const Moreworks = () => {
   return (
     <>
-      <div id="section1 mrwork" className="container-fluid pe-5 mt-5">
+      <div id="section1" className="container-fluid pe-5 mt-5">
         <div className="row ">
           <div className="col-md-6 ">
             <div className="row">

@@ -1,6 +1,4 @@
 import React from "react";
-import Navbar from "../../components/navbar/navbar";
-import mobilelogo from "../../images/mobilelogo.png";
 import "./screen5.scss";
 
 const notch = [
@@ -67,9 +65,6 @@ function Screen5() {
               collaborative spirit that is reflected in all our projects.
             </p>
           </div>
-          {/* <div className='col-2'>
-            <img src={mobilelogo} className='d-block w-100' />
-          </div> */}
         </div>
       </div>
       <div className=" container">

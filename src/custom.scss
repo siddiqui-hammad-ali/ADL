@@ -1,16 +1,9 @@
 @import "../node_modules/bootstrap/scss/functions";
-
-// Default variable overrides
 $body-bg: rgb(255, 255, 255);
 $body-color: rgb(255, 255, 255);
-
-// Required
 @import "~bootstrap/scss/bootstrap.scss";
 @import "../node_modules/bootstrap/scss/variables";
 @import "../node_modules/bootstrap/scss/mixins";
-
-// Optional Bootstrap components here
 @import "../node_modules/bootstrap/scss/root";
 @import "../node_modules/bootstrap/scss/reboot";
 @import "../node_modules/bootstrap/scss/type";
-// etc

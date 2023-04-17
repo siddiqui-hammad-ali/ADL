@@ -1,29 +1,9 @@
 import React from "react";
 import Navbar from "../../components/navbar/navbar";
-import TAIFVILLA from "../../adlpicture/07-MAKI.webp";
-import SOUQ from "../../adlpicture/01-TAIF VILLA.webp";
-import JCC from "../../adlpicture/02-SOUQ.webp";
-import NINA from "../../adlpicture/03-JCC.webp";
-import LION from "../../adlpicture/04-NINA.webp";
-import BAZAN from "../../adlpicture/05-LION SHARE.webp";
-import MAKI from "../../adlpicture/06-BAZAN.webp";
 import "./works.scss";
-import { useNavigate } from "react-router-dom";
 import Screen2 from "../../screenpages/screen2/Screen2";
 
-const working = [
-  {
-    img: "../../adlpicture/01-TAIF VILLA.webp",
-    img1: "../../adlpicture/02-SOUQ.webp",
-  },
-  {
-    img1: "../../adlpicture/04-NINA.webp",
-    img: "../../adlpicture/03-JCC.webp",
-  },
-];
-
 function WorksA() {
-  const navigate = useNavigate();
   return (
     <>
       <div id="Work" className="d-none d-md-block Works sections">

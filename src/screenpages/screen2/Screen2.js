@@ -1,14 +1,5 @@
 import React from "react";
-import Navbar from "../../components/navbar/navbar";
-import TAIFVILLA from "../../adlpicture/07-MAKI.webp";
-import SOUQ from "../../adlpicture/01-TAIF VILLA.webp";
-import JCC from "../../adlpicture/02-SOUQ.webp";
-import NINA from "../../adlpicture/03-JCC.webp";
-import LION from "../../adlpicture/04-NINA.webp";
-import BAZAN from "../../adlpicture/05-LION SHARE.webp";
-import MAKI from "../../adlpicture/06-BAZAN.webp";
 import "./screen2.scss";
-import { useNavigate } from "react-router-dom";
 
 const working = [
   "../../adlpicture/01-TAIF VILLA.webp",
@@ -22,7 +13,6 @@ const working = [
 ];
 
 function Screen2() {
-  const navigate = useNavigate();
   return (
     <div id="Work" className=" mt-lg-3 Works">
       <div className="container-fluid font-fam">
@@ -80,14 +70,6 @@ function Screen2() {
             </div>
           </div>
         </div>
-        {/* <div className="col-md-12  morework ">
-          <h1
-            onClick={() => navigate("./moreworks")}
-            className=" col-12 col-sm-2 col-md-8 fs-2  fontHeading left2 "
-          >
-            MORE WORKS >
-          </h1>
-        </div> */}
       </div>
     </div>
   );

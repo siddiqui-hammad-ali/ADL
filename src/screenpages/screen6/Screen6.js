@@ -1,6 +1,4 @@
 import React from "react";
-import Navbar from "../../components/navbar/navbar";
-import mobilelogo from "../../images/mobilelogo.png";
 import "./screen6.scss";
 
 function Screen6() {
@@ -20,25 +18,15 @@ function Screen6() {
             >
               BUILD YOUR <br /> DREAMS WITH US
             </h6>
-            <p
-              className="fontTextmobile m-0"
-              // style={{ fontSize: "1.3vh" }}
-            >
+            <p className="fontTextmobile m-0">
               ADL seeks to explore the role of design in building a socially and
               environmentally sustainable future. We wish to collaborate with
               clients, developers, NGOs or anyone who aspires to pursue the
-              spirit of design.
-              {/* In the era of rapid globalization where
-              illusions are fabricated to appeal mostly to the visual sense, the
-              authenticity and relevance of human experience becomes
-              questionable.  */}
-              Should architecture blend into a growing monoculture or does it
-              strive to celebrate diversity and inclusivity of cultures?
+              spirit of design. Should architecture blend into a growing
+              monoculture or does it strive to celebrate diversity and
+              inclusivity of cultures?
             </p>
           </div>
-          {/* <div className='col-2'>
-            <img src={mobilelogo} className='d-block w-100' />
-          </div> */}
         </div>
       </div>
       <div className="container-fluid" style={{ marginTop: "2vh" }}>

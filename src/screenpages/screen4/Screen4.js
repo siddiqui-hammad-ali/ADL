@@ -3,10 +3,8 @@ import Icon1 from "../../servicesICON/ICONS-01";
 import Icon2 from "../../servicesICON/ICONS-02";
 import Icon3 from "../../servicesICON/ICONS-03";
 import Icon4 from "../../servicesICON/ICONS-04";
-import mobilelogo from "../../images/mobilelogo.png";
 import Icon5 from "../../servicesICON/ICONS-05";
 import Icon6 from "../../servicesICON/ICONS-06";
-import Navbar from "../../components/navbar/navbar";
 import "./screen4.scss";
 
 const cards = [
@@ -67,9 +65,6 @@ function Screen4() {
               </p>
             </div>
           </div>
-          {/* <div className='col-2'>
-            <img src={mobilelogo} className='d-block w-100' />
-          </div> */}
         </div>
       </div>
       <div className="container">

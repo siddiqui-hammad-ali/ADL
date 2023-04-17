@@ -3,7 +3,6 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./home";
 import Moreworks from "./pages/moreworks/Moreworks";
 import Workinside from "./moreworks/workinside/Workinside";
-import ServicesInside from "../services/ServicesInside/ServicesInside";
 
 function App() {
   return (

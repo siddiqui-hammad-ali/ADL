@@ -16,7 +16,7 @@ const About = () => {
                 <Navbar active={"about"} />
               </div>
               <div style={{ marginTop: "6vh" }}>
-                <img src={adl} width="100%" />
+                <img src={adl} width="100%" alt="" />
               </div>
               <div className="aboutText" style={{ marginTop: "2vh" }}>
                 <p className=" fontText resp-fs">
@@ -45,7 +45,7 @@ const About = () => {
             <div className="col-md-6 offset-md-2 overflow-hidden">
               <img
                 src={aboutImg}
-                alt="about image"
+                alt="about"
                 style={{
                   height: "100vh",
                   marginRight: "-12px",

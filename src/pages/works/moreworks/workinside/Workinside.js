@@ -4,7 +4,6 @@ import Navbar from "../../../../components/navbar/navbar";
 import Carousel from "react-bootstrap/Carousel";
 import "./Workinside.scss";
 import { cards } from "../../../../components/pagination/paginationworks";
-import logo from "../../../../images/footer.png"
 
 const Workinside = () => {
   const { state } = useLocation();
@@ -29,7 +28,7 @@ const Workinside = () => {
               <div className="mt-5">
                 <p className="fontHeading  lines">{cards[idx].name}</p>
                 <p className="fontHeadingmute text-muted line-design">
-                  {cards[idx].design} <br /><br />
+                  {cards[idx].design} <br />
                   <span className="fontTextmute  text-muted lines">
                     {cards[idx].location}{" "}
                   </span>{" "}
@@ -57,6 +56,7 @@ const Workinside = () => {
               </div>
               <div
                 className=" d-flex justify-content-between  fonts nexpre"
+                style={{ marginTop: "54px", marginBottom: "54px" }}
               >
                 <div>
                   <p
@@ -84,27 +84,17 @@ const Workinside = () => {
               {cards[idx].slider.map(({ img1 }) => (
                 <Carousel.Item>
                   <img
-                    className="d-block "
+                    className="d-block moreslider "
+                    // src={sliders.slider}
                     src={img1}
-                    alt="slide"
+                    alt="First slide"
                     style={{
                       height: "100vh",
                       marginRight: "-12px",
                       marginLeft: "auto",
                       width: "100vw",
-                      lazy: "true",
                     }}
                   />
-                  <div
-                    style={{
-                      position: "absolute",
-                      top: "20px",
-                      right: "20px",
-                      zIndex: "1",
-                    }}
-                  >
-                    <img src={logo} alt="logo" width="auto" height="60" />
-                  </div>
                 </Carousel.Item>
               ))}
             </Carousel>

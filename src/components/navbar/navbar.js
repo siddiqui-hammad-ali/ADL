@@ -32,36 +32,40 @@ function Navbar({ active }) {
     >
       <div className="d-none d-lg-block ">
         <Link to="section1" spy={true} smooth={false}>
-          <span className={"section1" == activeSection && "active"}>WORKS</span>
+          <span className={"section1" === activeSection && "active"}>
+            WORKS
+          </span>
         </Link>
       </div>
       <div className="mt-2 d-none d-lg-block">
         <Link to="section2" spy={true} smooth={false}>
-          <span className={"section2" == activeSection && "active"}>ABOUT</span>
+          <span className={"section2" === activeSection && "active"}>
+            ABOUT
+          </span>
         </Link>
       </div>
       <div className="mt-2 d-none d-lg-block">
         <Link to="section3" spy={true} smooth={false}>
-          <span className={"section3" == activeSection && "active"}>
+          <span className={"section3" === activeSection && "active"}>
             SERVICES
           </span>
         </Link>
       </div>
       <div className="mt-2 d-none d-lg-block">
         <Link to="section4" spy={true} smooth={false}>
-          <span className={"section4" == activeSection && "active"}>TEAM</span>
+          <span className={"section4" === activeSection && "active"}>TEAM</span>
         </Link>
       </div>
       <div className="mt-2 d-none d-lg-block">
         <Link to="section5" spy={true} smooth={false}>
-          <span className={"section5" == activeSection && "active"}>
+          <span className={"section5" === activeSection && "active"}>
             INQUIRY
           </span>
         </Link>
       </div>
       <div className="mt-2   d-none d-lg-block">
         <Link to="section6" spy={true} smooth={false}>
-          <span className={"section6" == activeSection && "active"}>
+          <span className={"section6" === activeSection && "active"}>
             CONTACT
           </span>
         </Link>

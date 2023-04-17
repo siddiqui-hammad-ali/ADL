@@ -1,6 +1,3 @@
-// import "./App.scss";
-
-import Footer from "./components/footer/footer";
 import Screen1 from "./screenpages/screen1/Screen1";
 import Screen2 from "./screenpages/screen2/Screen2";
 import Screen3 from "./screenpages/screen3/Screen3";
@@ -17,10 +14,10 @@ function Screen() {
         <Screen2 />
         <Screen3 />
         <Screen4 />
-        <Screen5/>
+        <Screen5 />
         <Screen6 />
         <Screen7 />
-        <Screen8/>
+        <Screen8 />
       </div>
     </>
   );

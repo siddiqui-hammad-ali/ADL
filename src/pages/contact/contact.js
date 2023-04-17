@@ -2,8 +2,6 @@
 import React from "react";
 import Footer from "../../components/footer/footer";
 import Navbar from "../../components/navbar/navbar";
-import Screen7 from "../../screenpages/screen7/Screen7";
-import Screen8 from "../../screenpages/screen8/Screen8";
 import "./contact.scss";
 
 function Contact() {

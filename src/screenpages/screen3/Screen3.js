@@ -1,8 +1,6 @@
 import React from "react";
 import "./screen3.scss";
 import mobileImg from "../../images/mobileimg.png";
-import mobilelogo from "../../images/mobilelogo.png";
-import Navbar from "../../components/navbar/navbar";
 
 const Screen3 = () => {
   return (
@@ -14,9 +12,6 @@ const Screen3 = () => {
       <div className="container-fluid">
         <div className="row pt-4">
           <div className="col-8">
-            {/* <div className='col-10 lh-1 mt-5'>
-                <img src={adl} width='65%' style={{ marginLeft: '-12px' }} />
-              </div> */}
             <div
               style={{
                 color: "#133c5e",
@@ -44,16 +39,13 @@ const Screen3 = () => {
               execution phase from start to handover with sharp efficiency. */}
             </p>
           </div>
-          {/* <div className='col-4'>
-            <img src={mobilelogo} className='d-block ms-auto w-25' />
-          </div> */}
         </div>
       </div>
       <div
         className="aboutImg position-absolute"
         style={{ top: 0, right: 0, height: "100vh" }}
       >
-        <img src={mobileImg} alt="about image" />
+        <img src={mobileImg} alt="about" />
       </div>
     </div>
   );

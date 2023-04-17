@@ -11,7 +11,7 @@ ul {
   border-bottom: 1px solid #373636;
 }
 .font {
-  font-family: 'light';
+  font-family: "light";
 }
 
 .single-cta i {
@@ -94,7 +94,7 @@ ul {
   position: relative;
 }
 .footer-widget-heading h3::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   bottom: -15px;
@@ -104,7 +104,7 @@ ul {
 }
 .footer-widget ul li {
   display: inline-block;
-  float: left;
+  //float: left;
   width: 50%;
   margin-bottom: 12px;
 }

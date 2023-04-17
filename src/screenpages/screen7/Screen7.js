@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from "../../components/navbar/navbar";
 import "./screen7.scss";
 
 function Screen7() {
@@ -34,6 +33,7 @@ function Screen7() {
           <div className="col-8  d-flex justify-content-end">
             <iframe
               style={{ height: "16vh" }}
+              title="."
               width="100%"
               frameborder="0"
               scrolling="no"
@@ -68,6 +68,7 @@ function Screen7() {
           <div className="d-flex justify-content-end">
             <iframe
               style={{ height: "16vh" }}
+              title="."
               width="100%"
               frameborder="0"
               scrolling="no"
