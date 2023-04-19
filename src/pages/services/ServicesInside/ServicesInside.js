@@ -4,7 +4,8 @@ import "./ServicesInside.scss";
 import Carousel from "react-bootstrap/Carousel";
 import { useLocation } from "react-router-dom";
 import { moreservices } from "../../../components/pagination/moreservices";
-import logo from "../../../images/footer.png";
+import logo from "../../../images/SliderLogo.png";
+import logoTop from "../../../images/footer.png";
 
 const ServicesInside = () => {
   const { state } = useLocation();
@@ -26,13 +27,10 @@ const ServicesInside = () => {
           <div className="col-lg-4 mt-4 position-relative">
             <div className="left-inside">
               <Navbar />
-              <div
-                className="logoDivTop"
-                style={{
-                  display: "none",
-                }}
-              >
-                <img src={logo} alt="logo" width="auto" height="40" />
+              <div className="logoDivTop" style={{ display: "none" }}>
+                <a href="/" style={{ textDecoration: "none" }}>
+                  <img src={logoTop} alt="logo" width="auto" height="50" />
+                </a>
               </div>
               <div className="fontHeadingmute text-muted mt-3">
                 <div className="d-flex">{moreservices[idx].gif}</div>
@@ -45,7 +43,7 @@ const ServicesInside = () => {
                   style={{ marginTop: " 2vh" }}
                 >
                   <p className="fontText resp-fs">{moreservices[idx].text}</p>
-                  <div className="d-flex justify-content-between mt-5 pt-4">
+                  <div className="d-flex justify-content-between align-items-end arrows">
                     <div onClick={previous}>
                       <svg
                         className="arrow"
@@ -62,6 +60,7 @@ const ServicesInside = () => {
                         <path d="M15 18l-6-6 6-6" />
                       </svg>
                     </div>
+                    <div className="space p-5"></div>
                     <div onClick={next}>
                       <svg
                         className="arrow"
@@ -81,15 +80,15 @@ const ServicesInside = () => {
                   </div>
                 </div>
               </div>
-              <div className="mt-5"></div>
+              {/* <div className="mt-5"></div> */}
             </div>
           </div>
-          <div className="col-lg-8  overflow-hidden">
+          <div className="col-lg-8  overflow-hidden-x">
             <Carousel>
               {moreservices[idx].slider.map(({ img1 }) => (
                 <Carousel.Item>
                   <img
-                    className="d-block"
+                    className="d-block moreslider"
                     src={img1}
                     alt="First slide"
                     style={{
@@ -99,23 +98,23 @@ const ServicesInside = () => {
                   />
                 </Carousel.Item>
               ))}
+              <div
+                style={{
+                  position: "absolute",
+                  top: "20px",
+                  right: "20px",
+                  zIndex: "1",
+                }}
+              >
+                <img
+                  className="logoSlide"
+                  src={logo}
+                  alt="logo"
+                  width="auto"
+                  height="60"
+                />
+              </div>
             </Carousel>
-            <div
-              style={{
-                position: "absolute",
-                top: "20px",
-                right: "20px",
-                zIndex: "1",
-              }}
-            >
-              <img
-                className="logoSlide"
-                src={logo}
-                alt="logo"
-                width="auto"
-                height="60"
-              />
-            </div>
           </div>
         </div>
       </div>

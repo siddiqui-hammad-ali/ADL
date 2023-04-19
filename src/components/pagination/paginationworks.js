@@ -1,5 +1,6 @@
 export const cards = [
   {
+    id: "1",
     name: "DR. YOUSUF RESIDENCE",
     design: " ARCHITECTURE / INTERIORS / CONSTRUCTION",
     location: "JEDDAH, SAUDI ARABIA",
@@ -57,6 +58,7 @@ export const cards = [
     disc: "ZILAL (A Blissful Shade). A modern interpretation of the traditional Hejazi architecture. Elements such as courtyards, mashrabiyas and overhangs are studied and reinterpreted to adapt to the environmental factors. The primary architectural goal was to seamlessly integrate the landscape throughout the house. In contrast to the traditional approach of a front garden and recessed building mass, the building is surrounded with landscape to create features ranging from intimate seating areas to larger landscape elements. The landscape creates opportunities for views and uses for the family throughout the layout. The orientation of the building takes advantage of indirect sunlight. Whereas direct sun exposure is addressed architecturally by creating overhangs and louvres. This provides privacy as well as helps with passive cooling of the house thus reducing the reliance on air conditioning.",
   },
   {
+    id: "2",
     name: "SARHAN VILLA",
     design: "  ARCHITECTURE  / CONSTRUCTION",
     location: "JEDDAH, SAUDI ARABIA",
@@ -78,6 +80,7 @@ export const cards = [
     disc: "",
   },
   {
+    id: "3",
     name: "DHL OFFICE",
     design: "INTERIOR DESIGN / FITOUTS / EXECUTION",
     location: "JEDDAH, SAUDI ARABIA",
@@ -120,6 +123,7 @@ export const cards = [
     disc: "The office space is designed to create a positive work environment while embodying the brand identity of DHL in the spatial experience of their head office in Jeddah. The Industrial aesthetic is paired with greenery and lively colour scheme creating a unique character. The open layout provides a collaborative work environment where the bold ribbon acts as a spatial divider that defines the space without creating a physical boundary. ",
   },
   {
+    id: "4",
     name: "ASIAN HUB",
     design: "INTERIOR DESIGN",
     location: "JEDDAH, SAUDI ARABIA",
@@ -152,6 +156,7 @@ export const cards = [
     disc: "Asian street markets are a melting pot of culture, food and urban life that truly becomes the core of the city experience. The design celebrates the spirit of Asian street markets in the dining experience of the fast casual restaurant, Asian Hub located in Jeddah. Inspired by the Tori gate the façade is a playful combination of Asian architectural elements paired with the brand identity of Asian Hub. The Dragon ceiling is the main anchoring element, it is inspired by the Duanwu Festival that is parametrically translated into a ceiling installation. The dragon ceiling, along with the sign boards become an architectural expression of Asian markets. The environmental graphics further emphasize the experience through a seamless integration of the brand identity with architecture.",
   },
   {
+    id: "5",
     name: "NINA SALON",
     design: "INTERIOR DESIGN / BRAND DESIGN",
     location: "JEDDAH, SAUDI ARABIA",
@@ -194,6 +199,7 @@ export const cards = [
     disc: "Nina is an upscale beauty salon based in Jeddah. The design intent aims to reminisce the postmodern aesthetic with a minimalist approach. Mediterranean colours and textures are used to create warmth and contextualize the overall design proposal. ",
   },
   {
+    id: "6",
     name: "QANTARA",
     design: "ARCHITECTURE / INTERIOR DESIGN",
     location: "JEDDAH, SAUDI ARABIA",
@@ -243,6 +249,7 @@ export const cards = [
     ],
   },
   {
+    id: "7",
     name: "TAIF VILLA",
     design: "ARCHITECTURE / INTERIOR DESIGN",
     location: "TAIF, SAUDI ARABIA",
@@ -294,6 +301,7 @@ export const cards = [
     ],
   },
   {
+    id: "8",
     name: "SHANAB",
     design: "ARCHITECTURE / INTERIOR DESIGN / BRAND DESIGN",
     location: "JEDDAH, SAUDI ARABIA",
@@ -325,6 +333,7 @@ export const cards = [
     disc: "Traditional patterns are explored through a modern scope to establish a bold brand identity and spatial experience of a men’s clothing retail store in Jeddah.",
   },
   {
+    id: "9",
     name: "RESIDENTIAL COMPOUND",
     design: "ARCHITECTURE / INTERIOR DESIGN",
     location: "JEDDAH, SAUDI ARABIA",
@@ -362,6 +371,7 @@ export const cards = [
     disc: "From tradition to function. The environmental and social role of the Mashrabiyas remains significant to the architectural heritage of Middle Eastern architecture. The traditional window element is used as a functional ornament to provide protection from the harsh sun while re-establishing a sense of regional identity. ",
   },
   {
+    id: "10",
     name: "COMALLI",
     design: "ARCHITECTURE / INTERIOR DESIGN / BRAND DESIGN",
     location: "JEDDAH, SAUDI ARABIA",
@@ -411,6 +421,7 @@ export const cards = [
     disc: "Comali is a Latin American restaurant that fuses ancient and modern recipes to create a unique culinary experience. Ancient symbols from Aztec civilisations are explored to conceptualize the architectural and brand identity of the restaurant. The logo is derived from the symbol ‘Atl’ that is a personification of life, creation, warmth and sustenance. Whereas the spatial experience bridges the ancient architectural elements with the colour blocking technique inspired by Luis Barragán work. ",
   },
   {
+    id: "11",
     name: "LION SHARE",
     design: "ARCHITECTURE / INTERIOR DESIGN",
     location: "JEDDAH, SAUDI ARABIA",
@@ -439,6 +450,7 @@ export const cards = [
     disc: "Lion’s Share is a healthy food store based in Jeddah, Saudi Arabia. Architectural ribbon is utilized as a spatial organizer that defines and connects the program with the interior space.",
   },
   {
+    id: "12",
     name: "ZAYAN",
     design: "BRAND DESIGN",
     location: "JEDDAH, SAUDI ARABIA",
@@ -462,6 +474,7 @@ export const cards = [
     disc: "",
   },
   {
+    id: "13",
     name: "BAZA’AN",
     design: "ARCHITECTURE",
     location: "JEDDAH, SAUDI ARABIA",
@@ -502,6 +515,7 @@ export const cards = [
     disc: "Baza’an are traditional drinking water fountains found in the historic city of Hejaz. To revive this tradition, King Abdul Aziz water Endowment commissioned Anastomosis Design Lab to design and build 24 new Baza’ans all over the city of Jeddah. The design takes its inspiration from the history of the endowment when they laid the first pipe connecting Fatima Valley to Jeddah in order to create fresh water supply for the city. The cylindrical form of the Baza’an is intended to reminisce the concrete pipe segments used in different projects by the endowment. Baza’an Corniche located right in front of the Waterfront Mosque also features an ablution facility that can be used by worshippers",
   },
   {
+    id: "14",
     name: "AL AQEEQ SCHOOL",
     design: "ARCHITECTURE / INTERIOR DESIGN / BRAND DESIGN",
     location: "RIYADH, SAUDI ARABIA",
@@ -553,6 +567,7 @@ export const cards = [
     disc: "Knowledge can be defined as the understanding of information around us, acquired through questioning, discovering and learning. A successful learning environment must stimulate a subconscious triggering of information in the brain. Inspired by the paper folding art of Origami, the proposed design philosophy aims to enhance the students’ thinking process and train them to create links between the micro and macro worlds.  ",
   },
   {
+    id: "15",
     name: "KAWE SOUQ",
     design: "ARCHITECTURE",
     location: "JEDDAH, SAUDI ARABIA",
@@ -590,6 +605,7 @@ export const cards = [
     disc: "Shirae can be described as the sail that was used in traditional Hejazi merchant ships. Located adjacent to the Mena Seaport, Al-Shirae Souq takes its inspiration from the sails of the traditional trading ships and the mechanics of the modern cranes used in the nearby seaport.",
   },
   {
+    id: "16",
     name: "AL JADID RESTAURANT",
     design: "ARCHITECTURE / BRAND DESIGN",
     location: "JEDDAH, SAUDI ARABIA",
@@ -616,6 +632,7 @@ export const cards = [
     disc: "Al Jadid is restaurant that specializes in Pakistani Cuisine. The project aimed to rebrand and uplift the existing architectural identity through a façade installation. The design explores the concept of Roshan, architectural screens used in historic buildings in various parts of Pakistan. Whereas the logo is a calligraphic expression of the English and Arabic letters ‘J’ and ‘ج’.",
   },
   {
+    id: "17",
     name: "NAHR KING ABDUL AZIZ WATER ENDOWMENT MUSEUM",
     design: "INTERIOR DESIGN / FITOUT / EXECUTION",
     location: "JEDDAH, SAUDI ARABIA",
@@ -646,6 +663,7 @@ export const cards = [
     disc: "",
   },
   {
+    id: "18",
     name: "KAWE MONUMENT",
     design: "ARCHITECTURE / INTERIOR DESIGN",
     location: "RIYADH, SAUDI ARABIA",
@@ -674,6 +692,7 @@ export const cards = [
     disc: "",
   },
   {
+    id: "19",
     name: "PLAY SCAPE",
     design: "ARCHITECTURE",
     location: "RIYADH, SAUDI ARABIA",
@@ -710,6 +729,7 @@ export const cards = [
     disc: "Playscapes play an integral role in the physical and cognitive development of children. The primary goal is to introduce movements that involve cognitive impulses and target specific muscle groups for children. The project aims to break the cycle of passing on poor behaviours through behavioural science and establish positive association with physical exercise. Fitness with fun.",
   },
   {
+    id: "20",
     name: "FASLA",
     design: "BRAND DESIGN",
     location: "JEDDAH, SAUDI ARABIA",
@@ -736,6 +756,7 @@ export const cards = [
     disc: "Fasla is the punctuation mark apostrophe in Arabic language. The project entails brand design for a mass communication firm. The brand design combines the apostrophe and dialogue box to create a bold brand expression.",
   },
   {
+    id: "21",
     name: "RIDWAN RESIDENCE",
     design: "ARCHITECTURE / INTERIOR DESIGN",
     location: "JEDDAH, SAUDI ARABIA",
@@ -780,6 +801,7 @@ export const cards = [
     disc: "Al Ridwan Residence explores the concept of regional minimalism through an embodiment of contextual and social references derived from the local Hejazi architecture. The L-shape configuration bifurcates the private and public wings creating an intersecting overlay of masses that blurs lines between landscape and architecture. To harness the limited availability of space the interiors are furnished with storage walls integrated seamlessly into the architecture of the house. The humble presence of the house aims to direct focus on the surrounding garden. Whereas the Earthly materials and warm tones define the peaceful atmosphere of the house. Al Ridwan residence is the perfect embodiment of a challenging budget and responsible design strategies.",
   },
   {
+    id: "22",
     name: "RED IMPACT OFFICE",
     design: "INTERIOR DESIGN ",
     location: "JEDDAH, SAUDI ARABIA",
@@ -806,6 +828,7 @@ export const cards = [
     disc: "The world of advertisement is defined by a series of messages crafted to persuade the people to consume products. These messages are short-lived illusions that are left as memories. Provocative memories that create desires. The design of Red Impact office celebrates the phenomenon of advertisement by embodying the notion of illusion and ephemerality in space. In order to physically translate the concept, anamorphic graphics were utilized to create an interesting illusion of shape shifting space. ",
   },
   {
+    id: "23",
     name: "MUSATAH",
     design: "ARCHITECTURE",
     location: "JEDDAH, SAUDI ARABIA",
@@ -850,6 +873,7 @@ export const cards = [
     disc: "MUSATAH (planar). The concept of the house is rooted in the tectonic character of the Hejazi architecture. A set of stone walls structure the space and generates a hierarchical sequence of heights and fragmented volumes creating a play of segmented and linked zones.",
   },
   {
+    id: "24",
     name: "MARAKAZ AL AHYAA COMMUNITY CENTER",
     design: "ARCHITECTURE / INTERIOR DESIGN ",
     location: "JEDDAH, SAUDI ARABIA",
@@ -893,6 +917,7 @@ export const cards = [
     disc: "The devolvement of any society relies heavily on finance, sociology, psychology, politics and technology. A collaboration of all the disciplines is mandatory to serve the community with a holistic approach. The aim of the community center is to provide a platform to unify all the matters of management under one roof. The primary function of the community center is to design and implement programs for the betterment of the community. The design objective is to understand and reinterpret the spirit of traditional Hejazi architecture to find functional relevance and establish a sustainable architectural identity in the global context.",
   },
   {
+    id: "25",
     name: "TEEN TOWN TOYS",
     design: "ARCHITECTURE / INTERIOR DESIGN / FITOUT / EXECUTION",
     location: "JEDDAH, SAUDI ARABIA",
@@ -935,6 +960,7 @@ export const cards = [
     disc: "Understanding the psychology of children, the space of the toy store was created as a playscape. The design promotes a sense of adventure and freedom to explore.",
   },
   {
+    id: "26",
     name: "MAKI",
     design: "INTERIOR DESIGN",
     location: "JEDDAH, SAUDI ARABIA",
@@ -977,6 +1003,7 @@ export const cards = [
     disc: "The design concept for Maki House is derived through a juxtaposition of Japanese minimalism with contemporary graphic styles. Aged concrete wall cladding and floor tiles with wooden grouting reminisces the minimalist Japanese architecture. Whereas the spaces are contrasted with paintings and graffiti expressing the contemporary Japanese pop art. The technique is inspired by the traditional Japanese art form ‘Notan’, where different color intensities are superimposed to create depth and spatial layering. The graphics are broken and printed on separate layers of glass creating a unique dynamic sensory experience.",
   },
   {
+    id: "27",
     name: "BLOOMING",
     design: "INTERIOR DESIGN / BRAND DESIGN",
     location: "JEDDAH, SAUDI ARABIA",
@@ -1017,6 +1044,7 @@ export const cards = [
     disc: "To create a spatial identity for Blooming lingerie stores, the primary objective was to contextualize the activity of selling lingerie in the local culture. In contrast to the western culture, lingerie is associated with privacy and protection rather than physical enhancement and expression of the body. To translate this concept into a physical space the design celebrates the philosophy of ‘Contained Sensuality’. The concept takes its inspiration from the traditional ‘Veil’, where the idea is to create a ",
   },
   {
+    id: "28",
     name: "LINENZA",
     design: "BRAND DESIGN",
     location: "JEDDAH, SAUDI ARABIA",

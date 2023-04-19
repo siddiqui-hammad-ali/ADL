@@ -2,21 +2,26 @@ body {
   #section6 {
     background-color: #F7F7EF;
   }
+
   .navbara {
     position: relative;
     left: 4.5%;
     top: 2%;
   }
+
   .map-text {
     color: #133c5e;
   }
+
   .lineheight {
     color: #133c5e;
     line-height: 0.4rem;
   }
+
   .crd {
     padding: 15px;
   }
+
   .hr {
     display: block;
     height: 1px;
@@ -25,10 +30,12 @@ body {
     margin: 1em 0;
     padding: 0;
   }
+
   @media (max-width: 1024px) {
     .leftcontact {
       padding-left: 2.9rem;
     }
+
     .left2 {
       padding-left: 3.5rem;
     }

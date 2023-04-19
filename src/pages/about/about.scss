@@ -7,32 +7,39 @@ body {
     display: flex;
     justify-content: end;
   }
+
   .adl {
     font-size: 100px;
     color: #133c5e;
   }
+
   .text1 {
     color: #133c5e;
   }
+
   .research {
     font-size: 32.6px;
     color: #133c5e;
   }
+
   .navbars {
     position: relative;
     left: 10%;
     top: 8%;
     background-color: transparent;
   }
+
   .aboutText {
     max-width: 400px;
   }
+
   .rightImage {
     height: 100%;
     color: white;
     overflow: hidden;
     margin-right: -0.75rem;
   }
+
   .left {
     margin-left: 5.5rem;
   }
@@ -46,25 +53,31 @@ body {
       margin-right: 2rem;
       // text-align: left;
     }
+
     .left {
       margin-left: 1rem;
     }
+
     .right {
       margin-right: 2rem;
     }
   }
+
   @media (min-width: 1024px) {
     .text1 {
       margin-right: -5rem;
       // text-align: left;
     }
+
     .left {
       margin-left: 6rem;
     }
+
     .right {
       margin-right: 2rem;
     }
   }
+
   @media (min-width: 768px) {
     .rightImage {
       height: 100%;
@@ -72,13 +85,16 @@ body {
       overflow: hidden;
       margin-right: -0.75rem;
     }
+
     .text1 {
       margin-right: -5rem;
       // text-align: left;
     }
+
     .left {
       margin-left: 6rem;
     }
+
     .right {
       margin-right: 2rem;
     }

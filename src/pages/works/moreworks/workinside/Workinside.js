@@ -4,7 +4,8 @@ import Navbar from "../../../../components/navbar/navbar";
 import Carousel from "react-bootstrap/Carousel";
 import "./Workinside.scss";
 import { cards } from "../../../../components/pagination/paginationworks";
-import logo from "../../../../images/footer.png";
+import logo from "../../../../images/SliderLogo.png";
+import logoTop from "../../../../images/footer.png";
 
 const Workinside = () => {
   const { state } = useLocation();
@@ -24,13 +25,10 @@ const Workinside = () => {
       <div id="section1" className="">
         <div className="row">
           <div className="col-lg-4 mt-4 position-relative ">
-            <div
-              className="logoDivTop"
-              style={{
-                display: "none",
-              }}
-            >
-              <img src={logo} alt="logo" width="auto" height="50" />
+            <div className="logoDivTop" style={{ display: "none" }}>
+              <a href="/" style={{ textDecoration: "none" }}>
+                <img src={logoTop} alt="logo" width="auto" height="50" />
+              </a>
             </div>
             <div className="left-inside">
               <Navbar />
@@ -98,10 +96,9 @@ const Workinside = () => {
           <div className="col-lg-8  overflow-hidden">
             <Carousel>
               {cards[idx].slider.map(({ img1 }) => (
-                <Carousel.Item>
+                <Carousel.Item key={img1}>
                   <img
                     className="d-block moreslider "
-                    // src={sliders.slider}
                     src={img1}
                     alt="First slide"
                     style={{
@@ -111,23 +108,23 @@ const Workinside = () => {
                   />
                 </Carousel.Item>
               ))}
+              <div
+                style={{
+                  position: "absolute",
+                  top: "20px",
+                  right: "20px",
+                  zIndex: "1",
+                }}
+              >
+                <img
+                  className="logoSlide"
+                  src={logo}
+                  alt="logo"
+                  width="auto"
+                  height="60"
+                />
+              </div>
             </Carousel>
-            <div
-              style={{
-                position: "fixed",
-                top: "20px",
-                right: "20px",
-                zIndex: "1",
-              }}
-            >
-              <img
-                className="logoSlide"
-                src={logo}
-                alt="logo"
-                width="auto"
-                height="60"
-              />
-            </div>
           </div>
         </div>
       </div>
