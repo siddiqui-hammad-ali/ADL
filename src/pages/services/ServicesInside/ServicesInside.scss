@@ -2,6 +2,9 @@ body {
   .bgcolor {
     background-color: #133c5e;
   }
+  .d-flex {
+    justify-content: flex-end;
+  }
   .fontarab1 {
     font-family: "light";
     font-weight: 600;
@@ -89,8 +92,29 @@ body {
       height: 60vh !important;
     }
     .left-inside {
-      margin-left: 6px;
+      margin-left: 5px;
+      margin-right: 5px;
       margin-top: 0%;
+    }
+    .d-flex {
+      justify-content: center;
+    }
+    // svg#Layer_1 {
+    //   width: 10em;
+    // }
+    .logoSlide {
+      display: none;
+    }
+    .logoDivTop {
+      display: block !important;
+    }
+    svg.arrow {
+      height: 3em;
+      margin: -3em;
+      padding-left: 0.5em;
+    }
+    .mt-5 {
+      margin-top: 2rem !important;
     }
   }
 }

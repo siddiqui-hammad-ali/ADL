@@ -37,8 +37,10 @@ body {
   }
 }
 @media (max-width: 768px) {
-  svg#Layer_1 {
-    width: 12vh;
+  .svg-icon {
+    svg {
+      width: 12vh;
+    }
   }
   .text-container {
     display: flex;

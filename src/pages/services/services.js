@@ -27,7 +27,7 @@ function Services() {
               <div className="col-md-2  text-center">
                 <Link
                   onClick={() => navigate("./moreservices")}
-                  className="svg-icon "
+                  className="svg-icon"
                   to={"./moreservices"}
                   style={{ cursor: "pointer" }}
                   state={{ index: idx }}

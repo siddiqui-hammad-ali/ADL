@@ -12,6 +12,7 @@ export const moreservices = [
     name3: "architecture",
     gif: <Icon1 width={200} />,
     img1: "ServicePICTURES/B-EXODE/EXODE FINAL/EXODE-1.webp",
+    text: "We offer a range of services related to building design and planning, including site analysis, feasibility studies, schematic design, construction documents, and construction administration. We work closely with our clients to understand their needs and develop creative solutions that meet their specific requirements.",
     slider: [
       { img1: "ServicePICTURES/B-EXODE/EXODE FINAL/EXODE-1.webp" },
       { img1: "ServicePICTURES/B-EXODE/EXODE FINAL/EXODE-2.webp" },
@@ -42,6 +43,7 @@ export const moreservices = [
     name3: "interiors",
     gif: <Icon2 width={200} />,
     img1: "ServicePICTURES/C-ENDODE/ENDODE FINAL/ENDODE-1.webp",
+    text: "Our Interior design services include residential, commercial interiors, hospitality spaces, and institutions. Our bespoke design service provides a curated selection of colours, materials, and furnishings that create a cohesive and functional space while reflecting the client's personality and style.",
     slider: [
       { img1: "ServicePICTURES/C-ENDODE/ENDODE FINAL/ENDODE-1.webp" },
       { img1: "ServicePICTURES/C-ENDODE/ENDODE FINAL/ENDODE-2.webp" },
@@ -78,6 +80,7 @@ export const moreservices = [
     gif: <Icon3 width={200} />,
     name3: "product design",
     img1: "ServicePICTURES/D-KARGAH/KARGAH-1.webp",
+    text: "Our product design service offers designing and prototyping bespoke products for our clients. We identify our user needs, research materials and manufacturing processes. We work closely with our clients to understand their requirements and develop innovative solutions that meet their needs.",
     slider: [
       { img1: "ServicePICTURES/D-KARGAH/KARGAH-1.webp" },
       { img1: "ServicePICTURES/D-KARGAH/KARGAH-2.webp" },
@@ -90,6 +93,7 @@ export const moreservices = [
     gif: <Icon4 width={200} />,
     name3: "construction & maintinance",
     img1: "ServicePICTURES/A-CONDE/CONDE FINAL/CONDE-1.webp",
+    text: "Our construction services include the physical building of structures, including everything from laying foundations to installing electrical and plumbing systems. We work on projects ranging from small renovations to large commercial buildings. We also manage the construction process, ensuring that the project is completed on time and within budget. We are committed to delivering the final product that meets the client's specifications.",
     slider: [
       { img1: "ServicePICTURES/A-CONDE/CONDE FINAL/CONDE-1.webp" },
       { img1: "ServicePICTURES/A-CONDE/CONDE FINAL/CONDE-2.webp" },
@@ -110,6 +114,7 @@ export const moreservices = [
     gif: <Icon5 width={200} />,
     name3: "brand design",
     img1: "ServicePICTURES/E-AID/AID-1.webp",
+    text: "We specialise in developing bold brand identities with bespoke logo, colour scheme, and other visual elements that help brands differentiate from their competitors. We work closely with our clients to understand their brand values and develop identities that communicate their values effectively.",
     slider: [
       { img1: "ServicePICTURES/E-AID/AID-1.webp" },
       { img1: "ServicePICTURES/E-AID/AID-2.webp" },
@@ -129,6 +134,7 @@ export const moreservices = [
     gif: <Icon6 width={200} />,
     name3: "ux design",
     img1: "ServicePICTURES/F-AUX/AUX FINAL/AUX A-01.webp",
+    text: "We create digital interfaces and design User experiences (UX) that are intuitive and easy to use. Our services include websites, mobile apps, and software interfaces. We understand the user needs to create wireframes, prototypes and conduct user testing to ensure that the final product is easy to use and meets the client's requirements.",
     slider: [
       { img1: "ServicePICTURES/F-AUX/AUX FINAL/AUX A-01.webp" },
       { img1: "ServicePICTURES/F-AUX/AUX FINAL/AUX A-02.webp" },

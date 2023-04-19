@@ -21,19 +21,21 @@ const ServicesInside = () => {
   };
   return (
     <>
-      <div
-        id="section3"
-        className=""
-        style={{ width: "100%", height: "100vh" }}
-      >
+      <div id="section3" className="">
         <div className="row">
-          <div className="col-lg-4 col-md-12  mt-5">
+          <div className="col-lg-4 mt-4 position-relative">
             <div className="left-inside">
               <Navbar />
+              <div
+                className="logoDivTop"
+                style={{
+                  display: "none",
+                }}
+              >
+                <img src={logo} alt="logo" width="auto" height="40" />
+              </div>
               <div className="fontHeadingmute text-muted mt-3">
-                <div className="d-flex justify-content-center">
-                  {moreservices[idx].gif}
-                </div>
+                <div className="d-flex">{moreservices[idx].gif}</div>
                 <div className="serviceheadings">
                   <h3>{moreservices[idx].name1}</h3>
                   <h6>{moreservices[idx].name3}</h6>
@@ -42,12 +44,11 @@ const ServicesInside = () => {
                   className=" aboutText col-lg-11"
                   style={{ marginTop: " 2vh" }}
                 >
-                  {/* <p className="fontText resp-fs">
-                    Lorem ipsum dolor sit amet,
-                  </p> */}
-                  <div className="d-flex justify-content-between mt-5">
+                  <p className="fontText resp-fs">{moreservices[idx].text}</p>
+                  <div className="d-flex justify-content-between mt-5 pt-4">
                     <div onClick={previous}>
                       <svg
+                        className="arrow"
                         xmlns="http://www.w3.org/2000/svg"
                         width="100"
                         height="70"
@@ -63,6 +64,7 @@ const ServicesInside = () => {
                     </div>
                     <div onClick={next}>
                       <svg
+                        className="arrow"
                         xmlns="http://www.w3.org/2000/svg"
                         width="100"
                         height="70"
@@ -87,29 +89,33 @@ const ServicesInside = () => {
               {moreservices[idx].slider.map(({ img1 }) => (
                 <Carousel.Item>
                   <img
-                    className="d-block w-100"
+                    className="d-block"
                     src={img1}
                     alt="First slide"
                     style={{
                       height: "100vh",
-                      marginRight: "-12px",
-                      marginLeft: "auto",
                       width: "100vw",
                     }}
                   />
-                  <div
-                    style={{
-                      position: "absolute",
-                      top: "20px",
-                      right: "20px",
-                      zIndex: "1",
-                    }}
-                  >
-                    <img src={logo} alt="logo" width="auto" height="60" />
-                  </div>
                 </Carousel.Item>
               ))}
             </Carousel>
+            <div
+              style={{
+                position: "absolute",
+                top: "20px",
+                right: "20px",
+                zIndex: "1",
+              }}
+            >
+              <img
+                className="logoSlide"
+                src={logo}
+                alt="logo"
+                width="auto"
+                height="60"
+              />
+            </div>
           </div>
         </div>
       </div>

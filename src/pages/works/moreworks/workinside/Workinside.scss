@@ -75,11 +75,17 @@ body {
   @media (max-width: 768px) {
     .full-img {
       position: absolute;
-      top: 0%;
+      top: 5%;
     }
-    .left-inside {
-      margin-left: 2rem;
-      margin-top: 50%;
+    .lines {
+      line-height: 1px;
     }
+    .col-lg-8.overflow-hidden {
+      margin-top: -1em;
+    }
+    // .left-inside {
+    //   margin-left: 2rem;
+    //   margin-top: 50%;
+    // }
   }
 }

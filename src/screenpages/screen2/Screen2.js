@@ -2,7 +2,7 @@ import React from "react";
 import "./screen2.scss";
 
 const working = [
-  "../../adlpicture/01-TAIF VILLA.webp",
+  "../../adlpicture/01-TAIF VILLA.web",
   "../../adlpicture/02-SOUQ.webp",
   "../../adlpicture/04-NINA.webp",
   "../../adlpicture/03-JCC.webp",
@@ -44,7 +44,7 @@ function Screen2() {
                 </h1>
               </div>
               <div className="col-12 col-md-10 col-sm-2">
-                <p className="fontTextmobile">
+                <p className="fontTextmobile pt-5">
                   Not just Architects! <br />
                   We strive to help our clients achieve the best value for their
                   projects through our bespoke design and build services. Being
@@ -58,7 +58,7 @@ function Screen2() {
             </div>
           </div>
           <div className="col-md-8">
-            <div className="row" style={{ marginTop: "20%" }}>
+            <div className="row" style={{ marginTop: "-50%" }}>
               {working.map((workimages, idx) => (
                 <div className="px-2">
                   <div
