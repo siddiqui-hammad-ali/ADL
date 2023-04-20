@@ -1,6 +1,7 @@
 div#root {
   background-color: rgb(247, 247, 240);
 }
+
 body {
   .hover02 figure img {
     width: 500px;
@@ -8,23 +9,29 @@ body {
     -webkit-transition: 0.3s ease-in-out;
     transition: 0.3s ease-in-out;
   }
+
   .hover02 figure:hover img {
     width: 540px;
     height: 340px;
   }
+
   .line-height {
     line-height: 1%;
   }
+
   .righta {
     margin-left: 10rem;
     margin-top: 10px;
   }
+
   .length {
     margin-bottom: 2rem;
   }
+
   .size {
     color: black;
   }
+
   /*start media query*/
   // @media (min-width: 320px) {
   //   .hover02 figure img {
@@ -60,26 +67,32 @@ body {
     .line-height {
       line-height: 100%;
     }
+
     h4.fontHeading {
       justify-content: start;
     }
   }
+
   @media (max-width: 425px) {
     .hover02 figure img {
       width: 100%;
       height: auto;
       text-align: center;
     }
+
     h4.fontHeading {
       justify-content: start;
     }
+
     .moreworksimage {
       width: 110% !important;
       height: 33vh !important;
     }
+
     .year {
       margin-top: -4px;
     }
+
     .righta {
       display: flex;
       justify-content: center;
@@ -91,22 +104,27 @@ body {
       line-height: 100%;
     }
   }
+
   @media (max-width: 768px) {
     .hover02 figure img {
       width: 100%;
       height: auto;
       text-align: center;
     }
+
     h4.fontHeading {
       justify-content: start;
     }
+
     .moreworksimage {
       width: 110% !important;
       height: 33vh !important;
     }
+
     .year {
       margin-top: -4px;
     }
+
     .righta {
       display: flex;
       justify-content: center;
@@ -125,13 +143,16 @@ body {
       height: auto;
       text-align: center;
     }
+
     .moreworksimage {
       width: 110% !important;
       height: 33vh !important;
     }
+
     .year {
       margin-top: -4px;
     }
+
     .righta {
       display: flex;
       justify-content: center;

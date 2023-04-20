@@ -6,7 +6,7 @@ import Screen2 from "../../screenpages/screen2/Screen2";
 function WorksA() {
   return (
     <>
-      <div id="Work" className="d-none d-md-block Works sections">
+      <div id="section1" className="d-none d-md-block Works sections">
         <div className="container-fluid pe-0">
           <div
             className="row"

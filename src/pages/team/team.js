@@ -30,6 +30,7 @@ const notch = [
     image: "TEAM/04-SOPHIA.webp",
   },
 ];
+
 function Team() {
   return (
     <>
@@ -57,9 +58,10 @@ function Team() {
             </div>
             <div className="col-md-8 mb-5">
               <div className="row justify-content-end">
-                {notch.map((notches) => (
+                {notch.map((notches, index) => (
                   <div
-                    className="col-md-4 px-xxl-4"
+                    key={index}
+                    className="col-md-4 my-3 teams px-xxl-4"
                     style={{ marginTop: "2vh", marginBottom: "2vh" }}
                   >
                     <div

@@ -33,7 +33,9 @@ const ServicesInside = () => {
                 </a>
               </div>
               <div className="fontHeadingmute text-muted mt-3">
-                <div className="d-flex">{moreservices[idx].gif}</div>
+                <div className="icn">
+                  <div className="d-flex">{moreservices[idx].gif}</div>
+                </div>
                 <div className="serviceheadings">
                   <h3>{moreservices[idx].name1}</h3>
                   <h6>{moreservices[idx].name3}</h6>
@@ -43,10 +45,11 @@ const ServicesInside = () => {
                   style={{ marginTop: " 2vh" }}
                 >
                   <p className="fontText resp-fs">{moreservices[idx].text}</p>
-                  <div className="d-flex justify-content-between align-items-end arrows">
+                  <div className="arw">
+                    {/* <div className="d-flex justify-content-between align-items-end arrows"> */}
                     <div onClick={previous}>
                       <svg
-                        className="arrow"
+                        id="arw"
                         xmlns="http://www.w3.org/2000/svg"
                         width="100"
                         height="70"
@@ -63,7 +66,7 @@ const ServicesInside = () => {
                     <div className="space p-5"></div>
                     <div onClick={next}>
                       <svg
-                        className="arrow"
+                        id="arw"
                         xmlns="http://www.w3.org/2000/svg"
                         width="100"
                         height="70"
@@ -77,6 +80,7 @@ const ServicesInside = () => {
                         <path d="M9 18l6-6-6-6" />
                       </svg>
                     </div>
+                    {/* </div> */}
                   </div>
                 </div>
               </div>

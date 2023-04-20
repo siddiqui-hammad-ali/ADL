@@ -22,7 +22,6 @@ function Navbar({ active }) {
 
     return () => observer.disconnect();
   }, []);
-
   return (
     <div
       className="Teams fontNav nav flex-column nav-pills lh-1 tabs 	.d-sm-none .d-md-block .d-none .d-sm-block  cursor-pointer  "
@@ -31,41 +30,43 @@ function Navbar({ active }) {
       style={{ fontSize: "2vh" }} //'22px'
     >
       <div className="d-none d-lg-block ">
-        <Link to="section1" spy={true} smooth={false}>
-          <span className={"section1" === activeSection && "active"}>
+        <Link to="section1" spy={true} smooth={true}>
+          <span className={activeSection === "section1" ? "active" : ""}>
             WORKS
           </span>
         </Link>
       </div>
       <div className="mt-2 d-none d-lg-block">
-        <Link to="section2" spy={true} smooth={false}>
-          <span className={"section2" === activeSection && "active"}>
+        <Link to="section2" spy={true} smooth={true}>
+          <span className={activeSection === "section2" ? "active" : ""}>
             ABOUT
           </span>
         </Link>
       </div>
       <div className="mt-2 d-none d-lg-block">
-        <Link to="section3" spy={true} smooth={false}>
-          <span className={"section3" === activeSection && "active"}>
+        <Link to="section3" spy={true} smooth={true}>
+          <span className={activeSection === "section3" ? "active" : ""}>
             SERVICES
           </span>
         </Link>
       </div>
       <div className="mt-2 d-none d-lg-block">
-        <Link to="section4" spy={true} smooth={false}>
-          <span className={"section4" === activeSection && "active"}>TEAM</span>
+        <Link to="section4" spy={true} smooth={true}>
+          <span className={activeSection === "section4" ? "active" : ""}>
+            TEAM
+          </span>
         </Link>
       </div>
       <div className="mt-2 d-none d-lg-block">
-        <Link to="section5" spy={true} smooth={false}>
-          <span className={"section5" === activeSection && "active"}>
+        <Link to="section5" spy={true} smooth={true}>
+          <span className={activeSection === "section5" ? "active" : ""}>
             INQUIRY
           </span>
         </Link>
       </div>
       <div className="mt-2   d-none d-lg-block">
-        <Link to="section6" spy={true} smooth={false}>
-          <span className={"section6" === activeSection && "active"}>
+        <Link to="section6" spy={true} smooth={true}>
+          <span className={activeSection === "section6" ? "active" : ""}>
             CONTACT
           </span>
         </Link>

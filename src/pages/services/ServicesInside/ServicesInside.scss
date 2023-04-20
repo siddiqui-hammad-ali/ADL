@@ -12,8 +12,15 @@ body {
     justify-content: flex-end;
   }
 
-  .d-flex.justify-content-between.align-items-end.arrows {
-    height: 14em;
+  .arw {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  svg#arw {
+    margin-right: -3em;
+    margin-left: -3em;
   }
 
   .fontarab1 {
@@ -153,11 +160,26 @@ body {
       height: auto !important;
     }
 
-    svg.arrow {
-      height: 3em;
-      margin-right: -2em;
-      margin-left: -2em;
-      margin-bottom: auto;
+    svg#arw {
+      height: 4em;
+      margin-right: -3em;
+      margin-left: -3em;
+      margin-bottom: -4em;
+    }
+
+    .icn {
+      display: flex;
+      justify-content: center;
+    }
+
+    .arw {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .d-flex.justify-content-between.align-items-end.arrows {
+      height: 5em;
     }
 
     // .mt-5 {
