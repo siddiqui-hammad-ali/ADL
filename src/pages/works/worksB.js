@@ -6,7 +6,11 @@ function WorksB() {
   const navigate = useNavigate();
   return (
     <div>
-      <div id="section1" className="d-block d-sm-block Works sections">
+      <div
+        id="section1"
+        className="d-block d-sm-block Works sections"
+        style={{ overflowX: "hidden" }}
+      >
         <div className="container-fluid pe-0">
           <div
             className="row flex-row-reverse"

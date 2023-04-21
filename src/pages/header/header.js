@@ -24,7 +24,7 @@ const Header = () => {
     <>
       <div
         className="d-none d-md-block position-relative sections"
-        style={{ width: "100%", height: "100vh" }}
+        style={{ width: "100%", height: "100vh", overflowX: "hidden" }}
       >
         <div id="carouselHero" className="w-100">
           <Carousel fade>

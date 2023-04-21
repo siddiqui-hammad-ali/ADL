@@ -7,7 +7,11 @@ import "./contact.scss";
 function Contact() {
   return (
     <>
-      <div id="section6" className="d-none d-md-block my-3 sections">
+      <div
+        id="section6"
+        className="d-none d-md-block sections"
+        style={{ overflowX: "hidden" }}
+      >
         <div className="container-fluid" style={{ marginBottom: "4vh" }}>
           <div className="row">
             <div className="col-12">

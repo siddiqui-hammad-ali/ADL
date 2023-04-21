@@ -2,15 +2,18 @@ import React from "react";
 import Navbar from "../../components/navbar/navbar";
 import { moreservices } from "../../components/pagination/moreservices";
 import "./services.scss";
-import { Link } from "react-router-dom";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 function Services() {
   const navigate = useNavigate();
 
   return (
     <>
-      <div id="section3" className="d-none d-md-block mb-3 sections">
+      <div
+        id="section3"
+        className="d-none d-md-block sections"
+        style={{ overflowX: "hidden" }}
+      >
         <div className="container-fluid">
           <div className="row">
             <div className="col-12">
@@ -26,9 +29,9 @@ function Services() {
             {moreservices.map((moreservice, idx) => (
               <div className="col-md-2  text-center">
                 <Link
-                  onClick={() => navigate("./moreservices")}
+                  onClick={() => navigate("moreservices")}
                   className="svg-icon"
-                  to={"./moreservices"}
+                  to={"moreservices"}
                   style={{ cursor: "pointer" }}
                   state={{ index: idx }}
                   replace

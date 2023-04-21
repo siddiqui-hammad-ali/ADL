@@ -7,7 +7,7 @@ import Workinside from "./moreworks/workinside/Workinside";
 function App() {
   return (
     <>
-      <div className="App">
+      <div className="App" style={{ overflowX: "hidden" }}>
         <BrowserRouter>
           <Routes>
             <Route path="/*" element={<Home />}></Route>

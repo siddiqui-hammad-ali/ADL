@@ -8,7 +8,11 @@ import Screen3 from "../../screenpages/screen3/Screen3";
 const About = () => {
   return (
     <>
-      <div id="section2" className="d-none d-md-block about-header sections">
+      <div
+        id="section2"
+        className="d-none d-md-block about-header sections"
+        style={{ overflowX: "hidden" }}
+      >
         <div className="container-fluid pe-0">
           <div className="row">
             <div className="col-md-4">

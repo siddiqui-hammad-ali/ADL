@@ -22,7 +22,7 @@ const ServicesInside = () => {
   };
   return (
     <>
-      <div id="section3" className="">
+      <div id="section3" className="" style={{ overflowX: "hidden" }}>
         <div className="row">
           <div className="col-lg-4 mt-4 position-relative">
             <div className="left-inside">

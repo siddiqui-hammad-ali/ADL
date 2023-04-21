@@ -9,7 +9,7 @@ import ServicesInside from "./pages/services/ServicesInside/ServicesInside";
 function App() {
   return (
     <>
-      <div className="App">
+      <div className="App" style={{ overflowX: "hidden" }}>
         <BrowserRouter>
           <Routes>
             <Route path="/screenspages" element={<Screen />}></Route>

@@ -5,12 +5,15 @@ import sideimage from "../../../images/sideimage.png";
 import Footer from "../../../components/footer/footer";
 import { Link } from "react-router-dom";
 import { cards } from "../../../components/pagination/paginationworks";
-// import Exode from "./ServicesInside/ServicesInside";
 
 const Moreworks = () => {
   return (
     <>
-      <div id="section1" className="container-fluid pe-5 mt-5">
+      <div
+        id="section1"
+        className="container-fluid pe-5 mt-5"
+        style={{ overflowX: "hidden" }}
+      >
         <div className="row ">
           <div className="col-md-6 ">
             <div className="row">
@@ -37,7 +40,7 @@ const Moreworks = () => {
             <div className="col-lg-5">
               <Link
                 className=" text-decoration-none "
-                to={"./Workinside"}
+                to={"Workinside"}
                 state={{ index: idx }}
               >
                 <div className=" d-sm-flex justify-content-sm-center d-lg-flex justify-content-lg-end">

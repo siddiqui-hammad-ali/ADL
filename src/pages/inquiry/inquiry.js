@@ -8,7 +8,11 @@ import "./inquiry.scss";
 function Inquiry() {
   return (
     <>
-      <div id="section5" className="d-none d-md-block mb-3 sections">
+      <div
+        id="section5"
+        className="d-none d-md-block sections"
+        style={{ overflowX: "hidden" }}
+      >
         <div className="container-fluid">
           <div className="row">
             <div className="col-md-4">

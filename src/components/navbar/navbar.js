@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { Link } from "react-scroll";
 import "./navbar.scss";
 
 function Navbar({ active }) {
@@ -22,6 +21,23 @@ function Navbar({ active }) {
 
     return () => observer.disconnect();
   }, []);
+
+  const handleSectionClick = (sectionId) => {
+    const sectionElement = document.getElementById(sectionId);
+    if (sectionElement) {
+      sectionElement.scrollIntoView({ behavior: "smooth" });
+    } else {
+      window.location.href = "/"; // Navigate to homepage if section not found
+      setTimeout(() => {
+        const sectionElementAfterNavigation =
+          document.getElementById(sectionId);
+        if (sectionElementAfterNavigation) {
+          sectionElementAfterNavigation.scrollIntoView({ behavior: "smooth" });
+        }
+      }, 1000);
+    }
+  };
+
   return (
     <div
       className="Teams fontNav nav flex-column nav-pills lh-1 tabs 	.d-sm-none .d-md-block .d-none .d-sm-block  cursor-pointer  "
@@ -30,46 +46,52 @@ function Navbar({ active }) {
       style={{ fontSize: "2vh" }} //'22px'
     >
       <div className="d-none d-lg-block ">
-        <Link to="section1" spy={true} smooth={true}>
-          <span className={activeSection === "section1" ? "active" : ""}>
-            WORKS
-          </span>
-        </Link>
+        <span
+          className={activeSection === "section1" ? "active" : ""}
+          onClick={() => handleSectionClick("section1")}
+        >
+          WORKS
+        </span>
       </div>
       <div className="mt-2 d-none d-lg-block">
-        <Link to="section2" spy={true} smooth={true}>
-          <span className={activeSection === "section2" ? "active" : ""}>
-            ABOUT
-          </span>
-        </Link>
+        <span
+          className={activeSection === "section2" ? "active" : ""}
+          onClick={() => handleSectionClick("section2")}
+        >
+          ABOUT
+        </span>
       </div>
       <div className="mt-2 d-none d-lg-block">
-        <Link to="section3" spy={true} smooth={true}>
-          <span className={activeSection === "section3" ? "active" : ""}>
-            SERVICES
-          </span>
-        </Link>
+        <span
+          className={activeSection === "section3" ? "active" : ""}
+          onClick={() => handleSectionClick("section3")}
+        >
+          SERVICES
+        </span>
       </div>
       <div className="mt-2 d-none d-lg-block">
-        <Link to="section4" spy={true} smooth={true}>
-          <span className={activeSection === "section4" ? "active" : ""}>
-            TEAM
-          </span>
-        </Link>
+        <span
+          className={activeSection === "section4" ? "active" : ""}
+          onClick={() => handleSectionClick("section4")}
+        >
+          TEAM
+        </span>
       </div>
       <div className="mt-2 d-none d-lg-block">
-        <Link to="section5" spy={true} smooth={true}>
-          <span className={activeSection === "section5" ? "active" : ""}>
-            INQUIRY
-          </span>
-        </Link>
+        <span
+          className={activeSection === "section5" ? "active" : ""}
+          onClick={() => handleSectionClick("section5")}
+        >
+          INQUIRY
+        </span>
       </div>
       <div className="mt-2   d-none d-lg-block">
-        <Link to="section6" spy={true} smooth={true}>
-          <span className={activeSection === "section6" ? "active" : ""}>
-            CONTACT
-          </span>
-        </Link>
+        <span
+          className={activeSection === "section6" ? "active" : ""}
+          onClick={() => handleSectionClick("section6")}
+        >
+          CONTACT
+        </span>
       </div>
     </div>
   );

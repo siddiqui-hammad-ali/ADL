@@ -1,33 +1,41 @@
 body {
+
   #Work,
   #WorkB {
     background-color: #f7f7ef;
   }
+
   .about {
     overflow: hidden;
     margin-top: 1%;
   }
+
   .left1 {
     margin-left: 6rem;
   }
+
   .left2 {
     margin-left: 5.4rem;
     cursor: pointer;
   }
+
   .fontHeadingWorks {
     font-weight: 700;
     color: #133c5e;
     font-family: "bold";
     font-size: 3vh;
   }
+
   .fonticon {
     color: red;
   }
+
   .images {
     width: 100%;
     height: 330px;
     aspect-ratio: 1/1;
   }
+
   .morework {
     margin-left: 1rem;
   }
@@ -45,27 +53,33 @@ body {
     .left1 {
       margin-left: 4rem;
     }
+
     .morework {
       margin-left: 0rem;
     }
   }
+
   @media (max-width: 1024px) {
     .left1 {
       margin-left: 2.9rem;
     }
+
     .left2 {
       margin-left: 0rem;
     }
   }
+
   @media (min-width: 1440px) {
     .left2 {
       top: 10%;
     }
   }
+
   @media (max-width: 767px) {
     .Works.sections {
       height: auto;
     }
+
     h1.fontHeading {
       display: inherit;
     }
