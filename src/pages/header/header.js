@@ -28,8 +28,8 @@ const Header = () => {
       >
         <div id="carouselHero" className="w-100">
           <Carousel fade>
-            {slider.map((sliders) => (
-              <Carousel.Item key={sliders.id}>
+            {slider.map((sliders, id) => (
+              <Carousel.Item key={id}>
                 <div
                   className="bg-img"
                   style={{

@@ -94,20 +94,22 @@ const Workinside = () => {
             </div>
           </div>
           <div className="col-lg-8  overflow-hidden">
-            <Carousel>
-              {cards[idx].slider.map(({ img1 }) => (
-                <Carousel.Item key={img1}>
-                  <img
-                    className="d-block moreslider "
-                    src={img1}
-                    alt="First slide"
-                    style={{
-                      height: "100vh",
-                      width: "100vw",
-                    }}
-                  />
-                </Carousel.Item>
-              ))}
+            <div className="position-relative">
+              <Carousel>
+                {cards[idx].slider.map(({ img1, id }) => (
+                  <Carousel.Item key={id}>
+                    <img
+                      className="d-block moreslider "
+                      src={img1}
+                      alt="First slide"
+                      style={{
+                        height: "100vh",
+                        width: "100vw",
+                      }}
+                    />
+                  </Carousel.Item>
+                ))}
+              </Carousel>
               <div
                 style={{
                   position: "absolute",
@@ -124,7 +126,7 @@ const Workinside = () => {
                   height="60"
                 />
               </div>
-            </Carousel>
+            </div>
           </div>
         </div>
       </div>

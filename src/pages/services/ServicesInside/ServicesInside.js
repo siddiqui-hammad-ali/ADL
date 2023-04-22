@@ -88,20 +88,22 @@ const ServicesInside = () => {
             </div>
           </div>
           <div className="col-lg-8  overflow-hidden-x">
-            <Carousel>
-              {moreservices[idx].slider.map(({ img1 }) => (
-                <Carousel.Item>
-                  <img
-                    className="d-block moreslider"
-                    src={img1}
-                    alt="First slide"
-                    style={{
-                      height: "100vh",
-                      width: "100vw",
-                    }}
-                  />
-                </Carousel.Item>
-              ))}
+            <div className="position-relative">
+              <Carousel>
+                {moreservices[idx].slider.map(({ img1, id }) => (
+                  <Carousel.Item key={id}>
+                    <img
+                      className="d-block moreslider"
+                      src={img1}
+                      alt="First slide"
+                      style={{
+                        height: "100vh",
+                        width: "100vw",
+                      }}
+                    />
+                  </Carousel.Item>
+                ))}
+              </Carousel>
               <div
                 style={{
                   position: "absolute",
@@ -118,7 +120,7 @@ const ServicesInside = () => {
                   height="60"
                 />
               </div>
-            </Carousel>
+            </div>
           </div>
         </div>
       </div>

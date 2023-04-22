@@ -8,6 +8,7 @@ import Icon6 from "../../servicesICON/ICONS-06";
 
 export const moreservices = [
   {
+    id: "29",
     name1: "EXODE",
     name3: "architecture",
     gif: <Icon1 width={200} />,
@@ -39,6 +40,7 @@ export const moreservices = [
     ],
   },
   {
+    id: "30",
     name1: "ENDODE",
     name3: "interiors",
     gif: <Icon2 width={200} />,
@@ -76,6 +78,7 @@ export const moreservices = [
     ],
   },
   {
+    id: "31",
     name1: "KARGAH",
     gif: <Icon3 width={200} />,
     name3: "product design",
@@ -89,6 +92,7 @@ export const moreservices = [
     ],
   },
   {
+    id: "32",
     name1: "CONDE",
     gif: <Icon4 width={200} />,
     name3: "construction & maintinance",
@@ -110,6 +114,7 @@ export const moreservices = [
     ],
   },
   {
+    id: "33",
     name1: "AID",
     gif: <Icon5 width={200} />,
     name3: "brand design",
@@ -130,6 +135,7 @@ export const moreservices = [
     ],
   },
   {
+    id: "34",
     name1: "AUX",
     gif: <Icon6 width={200} />,
     name3: "ux design",

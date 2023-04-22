@@ -37,7 +37,7 @@ const Moreworks = () => {
         </div>
         <div className=" mt-3 mt-md-3 mt-lg-0 row  d-flex justify-content-end">
           {cards.map((card, idx) => (
-            <div className="col-lg-5">
+            <div className="col-lg-5" key={card.id}>
               <Link
                 className=" text-decoration-none "
                 to={"Workinside"}
