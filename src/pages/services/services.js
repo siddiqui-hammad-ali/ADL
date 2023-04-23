@@ -26,14 +26,14 @@ function Services() {
             className="row"
             style={{ marginTop: "10vh", marginBottom: "10vh" }}
           >
-            {moreservices.map((moreservice, idx) => (
-              <div className="col-md-2  text-center">
+            {moreservices.map((moreservice, id) => (
+              <div className="col-md-2  text-center" key={id}>
                 <Link
                   onClick={() => navigate("moreservices")}
                   className="svg-icon"
                   to={"moreservices"}
                   style={{ cursor: "pointer" }}
-                  state={{ index: idx }}
+                  state={{ index: id }}
                   replace
                 >
                   {moreservice.gif}
@@ -117,8 +117,8 @@ function Services() {
           <div className="row justify-content-end"></div>
           <Navbar active={"services"} />
           <div className="container-fluid mt-3">
-            {moreservices.map((moreservice, idx) => (
-              <div className="row mb-3">
+            {moreservices.map((moreservice, id) => (
+              <div className="row mb-3" key={id}>
                 <div className="col-12 d-flex justify-content-end">
                   <div className="text-container">
                     <p
@@ -140,7 +140,7 @@ function Services() {
                       className="svg-icon ml-2"
                       to={"./moreservices"}
                       style={{ cursor: "pointer" }}
-                      state={{ index: idx }}
+                      state={{ index: id }}
                       replace
                     >
                       {moreservice.gif}

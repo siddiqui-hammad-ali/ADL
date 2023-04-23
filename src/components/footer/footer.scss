@@ -193,3 +193,10 @@ ul {
   font-size: 14px;
   color: #878787;
 }
+
+.ftr {
+  width: 100vw !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+}

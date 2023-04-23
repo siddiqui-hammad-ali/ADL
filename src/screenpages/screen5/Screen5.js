@@ -67,10 +67,10 @@ function Screen5() {
           </div>
         </div>
       </div>
-      <div className=" container">
+      <div className="container">
         {notch.map((notches) => (
           <>
-            <div className="d-flex flex-row-reverse my-3">
+            <div className="d-flex flex-row-reverse my-3 team-container">
               <div
                 className="bg-img"
                 style={{

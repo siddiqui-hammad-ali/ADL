@@ -59,8 +59,8 @@ function Screen2() {
           </div>
           <div className="col-md-8">
             <div className="row" style={{ marginTop: "-50%" }}>
-              {working.map((workimages, idx) => (
-                <div className="px-2">
+              {working.map((workimages, id) => (
+                <div className="px-2" key={id}>
                   <div
                     className="bg-img my-2"
                     style={{ backgroundImage: `url('${workimages}')` }}

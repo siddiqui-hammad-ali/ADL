@@ -1,5 +1,6 @@
 body {
   color: #133c5e;
+
   .team-header {
     background-color: #e5dfcf;
   }
@@ -9,31 +10,36 @@ body {
     left: 10%;
     top: 8%;
   }
+
+  .team-container {
+    justify-content: end !important;
+    padding-right: 1em !important;
+  }
+
   .cardright {
     margin-right: 10px;
   }
+
   .notch {
     width: 150px;
     height: 150px;
     background: #000000;
-    clip-path: polygon(
-      (
-        0 0%,
-        10% 0,
-        100% 0,
-        100% 10%,
-        100% 66%,
-        61% 100%,
-        0% 104%,
-        0% 90%,
-        0% 28%
-      )
-    );
+    clip-path: polygon((0 0%,
+          10% 0,
+          100% 0,
+          100% 10%,
+          100% 66%,
+          61% 100%,
+          0% 104%,
+          0% 90%,
+          0% 28%));
   }
+
   .pic {
     width: 150px;
     height: 150px;
   }
+
   .notchText {
     line-height: 0.3rem;
     margin-top: 10px;

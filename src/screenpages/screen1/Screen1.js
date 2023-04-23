@@ -4,20 +4,19 @@ import logo from "../../images/adl logo.png";
 import Carousel from "react-bootstrap/Carousel";
 
 const slider = [
-  { img: "ADL SLIDE SHOW/1920/ADL MP-2.webp" },
-  { img: "ADL SLIDE SHOW/1920/ADL MP-3.webp" },
-  { img: "ADL SLIDE SHOW/1920/ADL MP-5.webp" },
-  { img: "ADL SLIDE SHOW/1920/ADL MP-7.webp" },
-  { img: "ADL SLIDE SHOW/1920/ADL MP-8.webp" },
-  { img: "ADL SLIDE SHOW/1920/ADL MP-9.webp" },
-  { img: "ADL SLIDE SHOW/1920/ADL MP-10.webp" },
-  { img: "ADL SLIDE SHOW/1920/ADL MP-11.webp" },
-  { img: "ADL SLIDE SHOW/1920/ADL MP-12.webp" },
-  { img: "ADL SLIDE SHOW/1920/ADL MP-14.webp" },
-  { img: "ADL SLIDE SHOW/1920/ADL MP-22.webp" },
-  { img: "ADL SLIDE SHOW/1920/ADL MP-23.webp" },
-  { img: "ADL SLIDE SHOW/1920/ADL MP-24.webp" },
-  { img: "ADL SLIDE SHOW/1920/ADL MP-32.webp" },
+  { img: "ADL SLIDE SHOW/ADL MP-2.webp" },
+  { img: "ADL SLIDE SHOW/ADL MP-5.webp" },
+  { img: "ADL SLIDE SHOW/ADL MP-7.webp" },
+  { img: "ADL SLIDE SHOW/ADL MP-8.webp" },
+  { img: "ADL SLIDE SHOW/ADL MP-9.webp" },
+  { img: "ADL SLIDE SHOW/ADL MP-10.webp" },
+  { img: "ADL SLIDE SHOW/ADL MP-11.webp" },
+  { img: "ADL SLIDE SHOW/ADL MP-12.webp" },
+  { img: "ADL SLIDE SHOW/ADL MP-14.webp" },
+  { img: "ADL SLIDE SHOW/ADL MP-22.webp" },
+  { img: "ADL SLIDE SHOW/ADL MP-23.webp" },
+  { img: "ADL SLIDE SHOW/ADL MP-24.webp" },
+  { img: "ADL SLIDE SHOW/ADL MP-32.webp" },
 ];
 const Screen1 = () => {
   return (
@@ -31,8 +30,8 @@ const Screen1 = () => {
       }}
     >
       <Carousel fade>
-        {slider.map((sliders) => (
-          <Carousel.Item>
+        {slider.map((sliders, id) => (
+          <Carousel.Item key={id}>
             <div
               className="bg-img"
               style={{

@@ -36,7 +36,7 @@ function Team() {
     <>
       <div
         id="section4"
-        style={{ overflowX: "hidden" }}
+        style={{ overflowX: "hidden", overflowY: "hidden" }}
         className="d-none d-md-block team-header sections"
       >
         <div className="container-fluid pt-5">

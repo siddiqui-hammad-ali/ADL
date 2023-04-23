@@ -103,6 +103,9 @@ body {
     // .lines {
     //   line-height: 1px;
     // }
+    .lines {
+      line-height: 100% !important;
+    }
 
     .col-lg-8.overflow-hidden {
       margin-top: -1em;

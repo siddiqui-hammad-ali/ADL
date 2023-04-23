@@ -17,7 +17,7 @@ function Footer() {
             </div>
 
             <div
-              className="col-8 d-flex justify-content-end flex-wrap"
+              className="col-8 d-flex justify-content-center flex-wrap ftr"
               style={{ fontSize: "11.8px" }}
             >
               <p className="ms-md-auto">
