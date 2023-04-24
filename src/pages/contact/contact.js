@@ -10,7 +10,7 @@ function Contact() {
       <div
         id="section6"
         className="d-none d-md-block sections"
-        style={{ overflowX: "hidden" }}
+        style={{ overflowX: "hidden", overflowY: "hidden" }}
       >
         <div className="container-fluid" style={{ marginBottom: "4vh" }}>
           <div className="row">

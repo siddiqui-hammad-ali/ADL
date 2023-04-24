@@ -36,12 +36,12 @@ const Moreworks = () => {
           </div>
         </div>
         <div className=" mt-3 mt-md-3 mt-lg-0 row  d-flex justify-content-end">
-          {cards.map((card, idx) => (
+          {cards.map((card, id) => (
             <div className="col-lg-5" key={card.id}>
               <Link
                 className=" text-decoration-none "
                 to={"Workinside"}
-                state={{ index: idx }}
+                state={{ index: id }}
               >
                 <div className=" d-sm-flex justify-content-sm-center d-lg-flex justify-content-lg-end">
                   <img
