@@ -68,42 +68,44 @@ function Screen5() {
         </div>
       </div>
       <div className="container">
-        {notch.map((notches) => (
-          <>
-            <div className="d-flex flex-row-reverse my-3 team-container">
-              <div
-                className="bg-img"
-                style={{
-                  backgroundImage: `url('${notches.image}')`,
-                  height: "13.5vh",
-                  width: "32%",
-                  clipPath: notches.crop,
-                  backgroundPositionY: notches.positionY,
-                }}
-              ></div>
-              <div className="d-flex align-items-end me-2">
-                <h6
-                  className="fontHeading cardright m-0"
-                  style={{ fontSize: "13px" }}
-                >
-                  {notches.empName}{" "}
-                  <span>
-                    <p
-                      className="m-0"
-                      style={{
-                        color: "#58595b",
-                        fontSize: "11px",
-                        display: "flex",
-                        justifyContent: "end",
-                      }}
-                    >
-                      {notches.department}
-                    </p>
-                  </span>
-                </h6>
+        {notch.map((notches, id) => (
+          <React.Fragment>
+            <>
+              <div className="d-flex flex-row-reverse my-3 team-container">
+                <div
+                  className="bg-img"
+                  style={{
+                    backgroundImage: `url('${notches.image}')`,
+                    height: "13.5vh",
+                    width: "32%",
+                    clipPath: notches.crop,
+                    backgroundPositionY: notches.positionY,
+                  }}
+                ></div>
+                <div className="d-flex align-items-end me-2">
+                  <h6
+                    className="fontHeading cardright m-0"
+                    style={{ fontSize: "13px" }}
+                  >
+                    {notches.empName}{" "}
+                    <span>
+                      <p
+                        className="m-0"
+                        style={{
+                          color: "#58595b",
+                          fontSize: "11px",
+                          display: "flex",
+                          justifyContent: "end",
+                        }}
+                      >
+                        {notches.department}
+                      </p>
+                    </span>
+                  </h6>
+                </div>
               </div>
-            </div>
-          </>
+            </>
+          </React.Fragment>
         ))}
       </div>
     </div>
