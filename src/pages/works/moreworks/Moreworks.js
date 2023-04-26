@@ -47,7 +47,12 @@ const Moreworks = () => {
                   <img
                     className="moreworksimage "
                     src={card.img}
-                    style={{ height: "37vh", width: "60vw" }}
+                    style={{
+                      height: "37vh",
+                      width: "100vw !important",
+                      overflowX: "hidden",
+                      padding: "1px",
+                    }}
                     alt=""
                   />
                 </div>

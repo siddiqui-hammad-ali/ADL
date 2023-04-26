@@ -95,14 +95,6 @@ body {
   }
 
   @media (max-width: 768px) {
-    // .full-img {
-    //   position: absolute;
-    //   top: 5%;
-    // }
-
-    // .lines {
-    //   line-height: 1px;
-    // }
     .lines {
       line-height: 100% !important;
     }
@@ -128,16 +120,7 @@ body {
     .logoDivTop {
       display: block !important;
       margin-left: 5px;
-      margin-bottom: 10px;
+      margin-bottom: auto;
     }
-
-    // img.d-block.moreslider {
-    //   height: auto !important;
-    // }
-
-    // .left-inside {
-    //   margin-left: 2rem;
-    //   margin-top: 50%;
-    // }
   }
 }

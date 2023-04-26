@@ -451,7 +451,7 @@ export const cards = [
   },
   {
     id: "12",
-    name: "ZAYAN",
+    name: "GRILL HOUSE",
     design: "BRAND DESIGN",
     location: "JEDDAH, SAUDI ARABIA",
     year: "2020",

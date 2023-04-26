@@ -24,7 +24,7 @@ const Workinside = () => {
     <>
       <div id="section1" className="">
         <div className="row">
-          <div className="col-lg-4 mt-4 position-relative ">
+          <div className="col-lg-4 mt-4 position-relative">
             <div className="logoDivTop" style={{ display: "none" }}>
               <a href="/" style={{ textDecoration: "none" }}>
                 <img src={logoTop} alt="logo" width="auto" height="50" />
@@ -32,68 +32,73 @@ const Workinside = () => {
             </div>
             <div className="left-inside">
               <Navbar />
-              <div className="mt-5">
-                <div>
+              <div className="textd">
+                <div className="mt-5">
                   <div>
-                    <p className="d-block fontHeading  lines">
-                      {cards[idx].name}
+                    <div>
+                      <p className="d-block fontHeading  lines">
+                        {cards[idx].name}
+                      </p>
+                    </div>
+                    <div>
+                      <p className="fontHeadingmute text-muted line-design">
+                        {cards[idx].design}
+                      </p>
+                    </div>
+                    <div className="fontTextmute  text-muted lines">
+                      <p>{cards[idx].location}</p>
+                    </div>{" "}
+                    <div className="fontTextmute text-muted lines ">
+                      <p>{cards[idx].year}</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="fontHeadingmute text-muted mt-1">
+                  <p>
+                    STATUS: {cards[idx].status} <br />
+                    AREA: {cards[idx].area} <br /> CATEGORY:{" "}
+                    {cards[idx].category}
+                    <br />
+                    PRINCIPAL ARCHITECT: {cards[idx].principle}
+                    <br />
+                    PROJECT ARCHITECT: {cards[idx].projectarchitech}
+                    <br />
+                    CIVIL ENGINEER: {cards[idx].civil} <br />
+                    CONSTRUCTION MANAGER: {cards[idx].construction}
+                  </p>
+                </div>
+                <div className="mt-1">
+                  <p className="fontText resp-fs">{cards[idx].disc}</p>
+                </div>
+              </div>
+              <div className="pointers">
+                <div
+                  className=" d-flex-inline justify-content-between fonts"
+                  style={{ marginTop: "54px", marginBottom: "5px" }}
+                >
+                  <div>
+                    <p
+                      className="point position-absolute"
+                      style={{ bottom: "1px", left: "auto" }}
+                      onClick={previous}
+                    >
+                      PREVIOUS PROJECT
                     </p>
                   </div>
                   <div>
-                    <p className="fontHeadingmute text-muted line-design">
-                      {cards[idx].design}
+                    <p
+                      onClick={next}
+                      className="point position-absolute"
+                      style={{ bottom: "1px", right: "1.5em" }}
+                    >
+                      NEXT PROJECT
                     </p>
                   </div>
-                  <div className="fontTextmute  text-muted lines">
-                    <p>{cards[idx].location}</p>
-                  </div>{" "}
-                  <div className="fontTextmute text-muted lines ">
-                    <p>{cards[idx].year}</p>
-                  </div>
-                </div>
-              </div>
-              <div className="fontHeadingmute text-muted mt-1">
-                <p>
-                  STATUS: {cards[idx].status} <br />
-                  AREA: {cards[idx].area} <br /> CATEGORY: {cards[idx].category}
-                  <br />
-                  PRINCIPAL ARCHITECT: {cards[idx].principle}
-                  <br />
-                  PROJECT ARCHITECT: {cards[idx].projectarchitech}
-                  <br />
-                  CIVIL ENGINEER: {cards[idx].civil} <br />
-                  CONSTRUCTION MANAGER: {cards[idx].construction}
-                </p>
-              </div>
-              <div className="mt-1">
-                <p className="fontText resp-fs">{cards[idx].disc}</p>
-              </div>
-              <div
-                className=" d-flex-inline justify-content-between  fonts nexpre"
-                style={{ marginTop: "54px", marginBottom: "5px" }}
-              >
-                <div>
-                  <p
-                    className="point position-absolute"
-                    style={{ bottom: "1px", left: "1.5em" }}
-                    onClick={previous}
-                  >
-                    PREVIOUS PROJECT
-                  </p>
-                </div>
-                <div>
-                  <p
-                    onClick={next}
-                    className="point position-absolute"
-                    style={{ bottom: "1px", right: "1.5em" }}
-                  >
-                    NEXT PROJECT
-                  </p>
                 </div>
               </div>
             </div>
           </div>
-          <div className="col-lg-8  overflow-hidden">
+          <div className="col-lg-8 overflow-hidden carousel">
             <div className="position-relative">
               <Carousel>
                 {cards[idx].slider.map(({ img1, id }) => (
@@ -104,7 +109,7 @@ const Workinside = () => {
                       alt="First slide"
                       style={{
                         height: "100vh",
-                        width: "100vw",
+                        width: "100%",
                       }}
                     />
                   </Carousel.Item>
