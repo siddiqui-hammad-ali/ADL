@@ -23,18 +23,18 @@ const ServicesInside = () => {
   return (
     <>
       <div id="section3" className="" style={{ overflowX: "hidden" }}>
-        <div className="row">
+        <div className="logoDivTop" style={{ display: "none" }}>
+          <a href="/" style={{ textDecoration: "none" }}>
+            <img src={logoTop} alt="logo" width="50%" height="auto" />
+          </a>
+        </div>
+        <div className="row mbl">
           <div className="col-lg-4 mt-4 position-relative">
             <div className="left-inside">
               <Navbar />
-              <div className="logoDivTop" style={{ display: "none" }}>
-                <a href="/" style={{ textDecoration: "none" }}>
-                  <img src={logoTop} alt="logo" width="auto" height="50" />
-                </a>
-              </div>
-              <div className="fontHeadingmute text-muted mt-3">
+              <div className="fontHeadingmute text-muted mt-3 content-cntr">
                 <div className="icn">
-                  <div className="d-flex">{moreservices[idx].gif}</div>
+                  <div className="d-flex cn">{moreservices[idx].gif}</div>
                 </div>
                 <div className="serviceheadings">
                   <h3>{moreservices[idx].name1}</h3>
@@ -42,49 +42,46 @@ const ServicesInside = () => {
                 </div>
                 <div
                   className=" aboutText col-lg-11"
-                  style={{ marginTop: " 2vh" }}
+                  style={{ marginBottom: "-4vh" }}
                 >
                   <p className="fontText resp-fs">{moreservices[idx].text}</p>
-                  <div className="arw">
-                    {/* <div className="d-flex justify-content-between align-items-end arrows"> */}
-                    <div onClick={previous}>
-                      <svg
-                        id="arw"
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="100"
-                        height="70"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="rgb(31,59,91)"
-                        stroke-width="1"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      >
-                        <path d="M15 18l-6-6 6-6" />
-                      </svg>
-                    </div>
-                    <div className="space p-5"></div>
-                    <div onClick={next}>
-                      <svg
-                        id="arw"
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="100"
-                        height="70"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="rgb(31,59,91)"
-                        stroke-width="1"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      >
-                        <path d="M9 18l6-6-6-6" />
-                      </svg>
-                    </div>
-                    {/* </div> */}
+                </div>
+                <div className="arw">
+                  <div onClick={previous}>
+                    <svg
+                      id="arw"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="100"
+                      height="70"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="rgb(31,59,91)"
+                      stroke-width="1"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M15 18l-6-6 6-6" />
+                    </svg>
+                  </div>
+                  <div className="space p-5"></div>
+                  <div onClick={next}>
+                    <svg
+                      id="arw"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="100"
+                      height="70"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="rgb(31,59,91)"
+                      stroke-width="1"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M9 18l6-6-6-6" />
+                    </svg>
                   </div>
                 </div>
               </div>
-              {/* <div className="mt-5"></div> */}
             </div>
           </div>
           <div className="col-lg-8  overflow-hidden-x">

@@ -69,7 +69,6 @@ body {
     .full-img {
       position: absolute;
       top: 0%;
-      // left: 5%;
       text-align: center;
     }
 
@@ -82,10 +81,6 @@ body {
       margin-left: 8rem;
       margin-top: 7rem;
     }
-
-    // .sliderservice {
-    //   height: 40vh !important;
-    // }
 
     .lines {
       line-height: 60%;
@@ -106,12 +101,8 @@ body {
 
     .left-inside {
       margin-left: 2rem;
-      margin-top: 7rem;
+      // margin-top: 7rem;
     }
-
-    // .sliderservice {
-    //   height: 40vh !important;
-    // }
 
     .lines {
       line-height: 60%;
@@ -124,6 +115,28 @@ body {
       top: 0%;
     }
 
+    .mbl {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+
+    .content-cntr {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+
+    .left-inside {
+      margin-top: -5rem;
+    }
+
+    .arw {
+      order: 1;
+    }
+
+    .serviceheadings {
+      order: 1;
+    }
+
     .moreslider {
       height: 60vh !important;
     }
@@ -131,7 +144,7 @@ body {
     .left-inside {
       margin-left: 10px;
       margin-right: 10px;
-      margin-top: 0%;
+      // margin-top: 0%;
     }
 
     .d-flex {
@@ -154,6 +167,7 @@ body {
       display: block !important;
       margin-left: 5px;
       margin-bottom: auto;
+      padding: 1em 0 1em 0;
     }
 
     img.d-block.moreslider {
@@ -162,8 +176,8 @@ body {
 
     svg#arw {
       height: 4em;
-      margin-right: -3em;
-      margin-left: -3em;
+      margin-right: -4em;
+      margin-left: -4em;
       margin-bottom: -4em;
     }
 
@@ -181,9 +195,43 @@ body {
     .d-flex.justify-content-between.align-items-end.arrows {
       height: 5em;
     }
+  }
 
-    // .mt-5 {
-    //   margin-top: 2rem !important;
-    // }
+  @media (min-width: 768px) and (max-width: 900px) {
+    .mbl {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+
+    .content-cntr {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+
+    .left-inside {
+      margin-top: -5rem;
+    }
+
+    .arw {
+      order: 1;
+    }
+
+    .left-inside {
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+
+    .serviceheadings {
+      order: 1;
+    }
+
+    .aboutText {
+      max-width: 100%;
+      padding: 1em 5em 0 0;
+    }
+
+    .cn {
+      justify-content: center;
+    }
   }
 }
