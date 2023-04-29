@@ -23,17 +23,17 @@ const Workinside = () => {
   return (
     <>
       <div id="section1" className="">
-        <div className="row">
+        <div className="logoDivTop-w" style={{ display: "none" }}>
+          <a href="/" style={{ textDecoration: "none" }}>
+            <img src={logoTop} alt="logo" width="50%" height="auto" />
+          </a>
+        </div>
+        <div className="row mbl">
           <div className="col-lg-4 mt-4 position-relative">
-            <div className="logoDivTop" style={{ display: "none" }}>
-              <a href="/" style={{ textDecoration: "none" }}>
-                <img src={logoTop} alt="logo" width="auto" height="50" />
-              </a>
-            </div>
-            <div className="left-inside">
+            <div className="left-inside content-cntr">
               <Navbar />
               <div className="textd">
-                <div className="mt-5">
+                <div className="mt-4 txtc">
                   <div>
                     <div>
                       <p className="d-block fontHeading  lines">
@@ -73,24 +73,16 @@ const Workinside = () => {
               </div>
               <div className="pointers">
                 <div
-                  className=" d-flex-inline justify-content-between fonts"
-                  style={{ marginTop: "54px", marginBottom: "5px" }}
+                  className="d-flex justify-content-between fonts"
+                  style={{ marginTop: "4em" }}
                 >
                   <div>
-                    <p
-                      className="point position-absolute"
-                      style={{ bottom: "1px", left: "auto" }}
-                      onClick={previous}
-                    >
+                    <p className="point position-relative" onClick={previous}>
                       PREVIOUS PROJECT
                     </p>
                   </div>
                   <div>
-                    <p
-                      onClick={next}
-                      className="point position-absolute"
-                      style={{ bottom: "1px", right: "1.5em" }}
-                    >
+                    <p onClick={next} className="point position-relative">
                       NEXT PROJECT
                     </p>
                   </div>

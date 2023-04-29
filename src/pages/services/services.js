@@ -12,7 +12,7 @@ function Services() {
       <div
         id="section3"
         className="d-none d-md-block sections"
-        style={{ overflowX: "hidden" }}
+        style={{ overflowX: "hidden", overflowY: "hidden" }}
       >
         <div className="container-fluid">
           <div className="row">

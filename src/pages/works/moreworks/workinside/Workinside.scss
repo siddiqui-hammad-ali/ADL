@@ -117,10 +117,33 @@ body {
       width: auto;
     }
 
-    .logoDivTop {
+    .logoDivTop-w {
       display: block !important;
       margin-left: 5px;
       margin-bottom: auto;
+      padding: 1em 0 2em 0;
+    }
+
+    .mbl {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+
+    .content-cntr {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+
+    .pointers {
+      order: 1;
+    }
+
+    .textd {
+      order: 1;
+    }
+
+    .txtc {
+      margin-top: 0rem !important;
     }
   }
 }
