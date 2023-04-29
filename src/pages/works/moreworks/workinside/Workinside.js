@@ -74,7 +74,7 @@ const Workinside = () => {
               <div className="pointers">
                 <div
                   className="d-flex justify-content-between fonts"
-                  style={{ marginTop: "4em" }}
+                  style={{ marginTop: "5em" }}
                 >
                   <div>
                     <p className="point position-relative" onClick={previous}>
